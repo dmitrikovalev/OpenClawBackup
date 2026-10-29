@@ -1,0 +1,30 @@
+services:
+  schoolmail:
+    build: .
+    image: schoolmail:latest
+    hostname: schoolmail
+    env_file: .env.mail
+    restart: unless-stopped
+    networks:
+      - ai
+    expose:
+      - "8000"
+    volumes:
+      - ./state:/state          # SQLite: processed UIDVALIDITY + UID, no mail content
+    read_only: true
+    tmpfs:
+      - /tmp
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=12)"]
+      interval: 60s
+      timeout: 15s
+      retries: 3
+      start_period: 20s
+
+networks:
+  ai:
+    external: true

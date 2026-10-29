@@ -1,0 +1,78 @@
+{
+  "started": "2026-10-26T14:37:56+00:00",
+  "trip": {
+    "trip_id": 15644,
+    "date": "2026-10-28",
+    "departure": "08:30",
+    "arrival": "10:15",
+    "seats_standard": 39,
+    "price_per_ticket": 25.0,
+    "total": 25.0,
+    "currency": "AED",
+    "route": "E101: Abu Dhabi, Central Bus Station 1 → Dubai, Ibn Battuta Bus Station 8",
+    "passengers": 1
+  },
+  "otp_channel": "Phone",
+  "terms_accepted": true,
+  "invoice": {
+    "invoice_id": 34103,
+    "total": 25.0,
+    "payment_methods": [
+      {
+        "id": 5,
+        "code": "***",
+        "name": "***"
+      }
+    ]
+  },
+  "payment_method_cards": [
+    "Dubai Pay"
+  ],
+  "chosen_method": {
+    "id": 5,
+    "code": "***",
+    "name": "***"
+  },
+  "error": "Error: Response.text: Protocol error (Network.getResponseBody): No resource with given identifier found\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation.",
+  "released": false,
+  "hold": {
+    "trip_id": 15644,
+    "boarding": 13,
+    "alighting": 15,
+    "hub_hold": {
+      "holdId": 48185,
+      "reservedSeatIds": [
+        860366
+      ],
+      "expiresAt": "2026-10-26T14:53:29.3675315",
+      "sessionId": "01a178a6-059a-7448-9be9-97edc9942df4"
+    },
+    "hold_id": 48185,
+    "session_id": "01a178a6-059a-7448-9be9-97edc9942df4",
+    "expires_at": "2026-10-26T14:53:29.367Z",
+    "seats": [
+      {
+        "id": 860366,
+        "title": "53"
+      }
+    ]
+  },
+  "hosts": {
+    "bus.rta.ae": 23,
+    "bus-api.rta.ae": 32,
+    "c.tile.openstreetmap.org": 3,
+    "a.tile.openstreetmap.org": 3,
+    "b.tile.openstreetmap.org": 2,
+    "flagcdn.com": 1,
+    "epayment.dubai.ae": 24,
+    "pay.google.com": 2,
+    "csp.withgoogle.com": 1,
+    "www.gstatic.com": 5,
+    "play.google.com": 6
+  },
+  "hub_calls": [
+    "JoinScheduledTripAsCustomer",
+    "AutoSelectReservation",
+    "ReleaseReservation"
+  ]
+}

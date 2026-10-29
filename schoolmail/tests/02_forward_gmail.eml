@@ -1,0 +1,55 @@
+Authentication-Results: mx.mailhost.example; dkim=pass header.d=example.com;
+ spf=pass smtp.mailfrom=parent@example.com; dmarc=pass header.from=example.com
+From: Parent Name <parent@example.com>
+Date: Mon, 26 Oct 2026 10:02:11 +0400
+Subject: Fwd: Parent-teacher meeting on 5 November
+To: parent.school@mailhost.example
+Message-ID: <fwd-gmail-1@example.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="000000000000a1b2c3"
+
+--000000000000a1b2c3
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+=D0=9F=D0=B5=D1=80=D0=B5=D1=81=D1=8B=D0=BB=D0=B0=D1=8E =D0=BF=D0=B8=D1=81=
+=D1=8C=D0=BC=D0=BE =D0=B8=D0=B7 =D1=88=D0=BA=D0=BE=D0=BB=D1=8B.
+
+---------- Forwarded message ---------
+From: Greenfield School Office <office@greenfield.example>
+Date: Mon, Oct 26, 2026 at 9:15 AM
+Subject: Parent-teacher meeting on 5 November
+To: <parent@example.com>
+
+
+Dear parents,
+
+Parent-teacher meetings will take place on Thursday, 5 November, 14:00-18:0=
+0.
+Please book a 10-minute slot using this form <https://forms.example/ptm-boo=
+king> by
+30 October.
+
+Greenfield School Office
+
+--000000000000a1b2c3
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">=D0=9F=D0=B5=D1=80=D0=B5=D1=81=D1=8B=D0=BB=D0=B0=D1=8E =D0=
+=BF=D0=B8=D1=81=D1=8C=D0=BC=D0=BE =D0=B8=D0=B7 =D1=88=D0=BA=D0=BE=D0=BB=D1=
+=8B.<br><br><div class=3D"gmail_quote"><div dir=3D"ltr" class=3D"gmail_attr=
+">---------- Forwarded message ---------<br>From: <strong class=3D"gmail_se=
+ndername" dir=3D"auto">Greenfield School Office</strong> <span dir=3D"auto"=
+>&lt;<a href=3D"mailto:office@greenfield.example">office@greenfield.example=
+</a>&gt;</span><br>Date: Mon, Oct 26, 2026 at 9:15 AM<br>Subject: Parent-te=
+acher meeting on 5 November<br>To: &lt;<a href=3D"mailto:parent@example.com=
+">parent@example.com</a>&gt;<br></div><br><br><div><p>Dear parents,</p><p>P=
+arent-teacher meetings will take place on <b>Thursday, 5 November</b>, 14:0=
+0&ndash;18:00.</p><p>Please book a 10-minute slot using <a href=3D"https://=
+www.google.com/url?q=3Dhttps://forms.example/ptm-booking&amp;source=3Dgmail=
+&amp;ust=3D1">this form</a> by 30 October.</p><p>Greenfield School Office</=
+p><img src=3D"https://track.example/open.gif?id=3D123" width=3D"1" height=
+=3D"1" alt=3D""></div></div></div>
+
+--000000000000a1b2c3--

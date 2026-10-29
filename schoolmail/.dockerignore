@@ -1,0 +1,8 @@
+.env*
+state/
+tests/
+skill/
+.claude/
+__pycache__/
+*.pyc
+*.md

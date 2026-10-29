@@ -1,0 +1,2743 @@
+{
+  "date_picked": [
+    {
+      "text": "Select time\n28 Oct 2026\n\nSelect time\n\nOct 2026\nSu\nMo\nTu\nWe\nTh\nFr\nSa\n27\n28\n29\n30\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n18\n:\n14\nAM\nPM\n\nSelect hour\n\n12\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n28 Oct · 18:14",
+      "controls": [
+        {
+          "tag": "button",
+          "role": null,
+          "aria": "Select date",
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": ""
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": "Close",
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": ""
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": "Previous",
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": ""
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": "Next",
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": ""
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "27"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "28"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "29"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "30"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "1"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "2"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "3"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "4"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "5"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "6"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "7"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "8"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "9"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "10"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "11"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "12"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "13"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "14"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "15"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "16"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "17"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "18"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "19"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "20"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "21"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "22"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "23"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "24"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "25"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "26"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "27"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "28"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "29"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "30"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "31"
+        },
+        {
+          "tag": "div",
+          "role": "group",
+          "aria": "Time",
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "18\n:\n14"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": "Select hour",
+          "pressed": "true",
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "18"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": "Select minutes",
+          "pressed": "false",
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "14"
+        },
+        {
+          "tag": "div",
+          "role": "group",
+          "aria": "AM or PM",
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "AM\nPM"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": "false",
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "AM"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": "true",
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "PM"
+        },
+        {
+          "tag": "svg",
+          "role": "slider",
+          "aria": "Hour dial",
+          "pressed": null,
+          "now": "18",
+          "min": "0",
+          "max": "23",
+          "disabled": false,
+          "text": ""
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "28 Oct · 18:14"
+        }
+      ]
+    }
+  ],
+  "time_panel": [
+    {
+      "text": "Select time\n28 Oct 2026\n\nSelect time\n\nOct 2026\nSu\nMo\nTu\nWe\nTh\nFr\nSa\n27\n28\n29\n30\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n18\n:\n14\nAM\nPM\n\nSelect hour\n\n12\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n28 Oct · 18:14",
+      "controls": [
+        {
+          "tag": "button",
+          "role": null,
+          "aria": "Select date",
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": ""
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": "Close",
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": ""
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": "Previous",
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": ""
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": "Next",
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": ""
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "27"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "28"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "29"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "30"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "1"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "2"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "3"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "4"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "5"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "6"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "7"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "8"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "9"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "10"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "11"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "12"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "13"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "14"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "15"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "16"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "17"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "18"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "19"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "20"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "21"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "22"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "23"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "24"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "25"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "26"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "27"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "28"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "29"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "30"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "31"
+        },
+        {
+          "tag": "div",
+          "role": "group",
+          "aria": "Time",
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "18\n:\n14"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": "Select hour",
+          "pressed": "true",
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "18"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": "Select minutes",
+          "pressed": "false",
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "14"
+        },
+        {
+          "tag": "div",
+          "role": "group",
+          "aria": "AM or PM",
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "AM\nPM"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": "false",
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "AM"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": "true",
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "PM"
+        },
+        {
+          "tag": "svg",
+          "role": "slider",
+          "aria": "Hour dial",
+          "pressed": null,
+          "now": "18",
+          "min": "0",
+          "max": "23",
+          "disabled": false,
+          "text": ""
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "28 Oct · 18:14"
+        }
+      ]
+    }
+  ],
+  "hour_ok": true,
+  "hour_set": [
+    {
+      "text": "Select time\n28 Oct 2026\n\nSelect time\n\nOct 2026\nSu\nMo\nTu\nWe\nTh\nFr\nSa\n27\n28\n29\n30\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n07\n:\n14\nAM\nPM\n\nSelect hour\n\n12\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n28 Oct · 07:14",
+      "controls": [
+        {
+          "tag": "button",
+          "role": null,
+          "aria": "Select date",
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": ""
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": "Close",
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": ""
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": "Previous",
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": ""
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": "Next",
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": ""
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "27"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "28"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "29"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "30"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "1"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "2"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "3"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "4"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "5"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "6"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "7"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "8"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "9"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "10"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "11"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "12"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "13"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "14"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "15"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "16"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "17"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "18"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "19"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "20"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "21"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "22"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "23"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "24"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "25"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "26"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "27"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "28"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "29"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "30"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "31"
+        },
+        {
+          "tag": "div",
+          "role": "group",
+          "aria": "Time",
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "07\n:\n14"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": "Select hour",
+          "pressed": "true",
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "07"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": "Select minutes",
+          "pressed": "false",
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "14"
+        },
+        {
+          "tag": "div",
+          "role": "group",
+          "aria": "AM or PM",
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "AM\nPM"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": "true",
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "AM"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": "false",
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "PM"
+        },
+        {
+          "tag": "svg",
+          "role": "slider",
+          "aria": "Hour dial",
+          "pressed": null,
+          "now": "7",
+          "min": "0",
+          "max": "23",
+          "disabled": false,
+          "text": ""
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "28 Oct · 07:14"
+        }
+      ]
+    }
+  ],
+  "minutes_panel": [
+    {
+      "text": "Select time\n28 Oct 2026\n\nSelect time\n\nOct 2026\nSu\nMo\nTu\nWe\nTh\nFr\nSa\n27\n28\n29\n30\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n07\n:\n14\n\nSelect minutes\n\n00\n05\n10\n15\n20\n25\n30\n35\n40\n45\n50\n55\n28 Oct · 07:14",
+      "controls": [
+        {
+          "tag": "button",
+          "role": null,
+          "aria": "Select date",
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": ""
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": "Close",
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": ""
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": "Previous",
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": ""
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": "Next",
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": ""
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "27"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "28"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "29"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "30"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "1"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "2"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "3"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "4"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "5"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "6"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "7"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "8"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "9"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "10"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "11"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "12"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "13"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "14"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "15"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "16"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "17"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "18"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "19"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "20"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "21"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "22"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "23"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "24"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "25"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "26"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "27"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "28"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "29"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "30"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "31"
+        },
+        {
+          "tag": "div",
+          "role": "group",
+          "aria": "Time",
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "07\n:\n14"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": "Select hour",
+          "pressed": "false",
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "07"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": "Select minutes",
+          "pressed": "true",
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "14"
+        },
+        {
+          "tag": "svg",
+          "role": "slider",
+          "aria": "Minute dial",
+          "pressed": null,
+          "now": "14",
+          "min": "0",
+          "max": "55",
+          "disabled": false,
+          "text": ""
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "28 Oct · 07:14"
+        }
+      ]
+    }
+  ],
+  "minute_ok": true,
+  "minutes_set": [
+    {
+      "text": "Select time\n28 Oct 2026\n\nSelect time\n\nOct 2026\nSu\nMo\nTu\nWe\nTh\nFr\nSa\n27\n28\n29\n30\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n07\n:\n30\n\nSelect minutes\n\n00\n05\n10\n15\n20\n25\n30\n35\n40\n45\n50\n55\n28 Oct · 07:30",
+      "controls": [
+        {
+          "tag": "button",
+          "role": null,
+          "aria": "Select date",
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": ""
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": "Close",
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": ""
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": "Previous",
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": ""
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": "Next",
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": ""
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "27"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "28"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "29"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "30"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "1"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "2"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "3"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "4"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "5"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "6"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "7"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "8"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "9"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "10"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "11"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "12"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "13"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "14"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "15"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "16"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "17"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "18"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "19"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "20"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "21"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "22"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "23"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "24"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "25"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "26"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "27"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "28"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "29"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "30"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "31"
+        },
+        {
+          "tag": "div",
+          "role": "group",
+          "aria": "Time",
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "07\n:\n30"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": "Select hour",
+          "pressed": "false",
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "07"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": "Select minutes",
+          "pressed": "true",
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "30"
+        },
+        {
+          "tag": "svg",
+          "role": "slider",
+          "aria": "Minute dial",
+          "pressed": null,
+          "now": "30",
+          "min": "0",
+          "max": "55",
+          "disabled": false,
+          "text": ""
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "28 Oct · 07:30"
+        }
+      ]
+    }
+  ],
+  "dial_log": [
+    [
+      "Hour dial",
+      18
+    ],
+    [
+      "Hour dial",
+      17
+    ],
+    [
+      "Hour dial",
+      16
+    ],
+    [
+      "Hour dial",
+      15
+    ],
+    [
+      "Hour dial",
+      14
+    ],
+    [
+      "Hour dial",
+      13
+    ],
+    [
+      "Hour dial",
+      12
+    ],
+    [
+      "Hour dial",
+      11
+    ],
+    [
+      "Hour dial",
+      10
+    ],
+    [
+      "Hour dial",
+      9
+    ],
+    [
+      "Hour dial",
+      8
+    ],
+    [
+      "Hour dial",
+      7
+    ],
+    [
+      "Minute dial",
+      14
+    ],
+    [
+      "Minute dial",
+      20
+    ],
+    [
+      "Minute dial",
+      25
+    ],
+    [
+      "Minute dial",
+      30
+    ]
+  ],
+  "date_button_after": "Select Date & Time\n28 Oct · 07:30",
+  "pax": [
+    {
+      "text": "Passengers\n\n1 passenger(s) / 10\n\nAdult\n−\n1\n+\nChild Under 5 Years Old\n100% off\n−\n0\n+\nPOD\n100% off\n−\n0\n+\nSenior Citizen\n−\n0\n+\nConfirm",
+      "controls": [
+        {
+          "tag": "button",
+          "role": null,
+          "aria": "Close",
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": ""
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": "Decrease Adult",
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "−"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": "Increase Adult",
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "+"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": "Decrease Child Under 5 Years Old",
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "−"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": "Increase Child Under 5 Years Old",
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "+"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": "Decrease POD",
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "−"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": "Increase POD",
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "+"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": "Decrease Senior Citizen",
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": true,
+          "text": "−"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": "Increase Senior Citizen",
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "+"
+        },
+        {
+          "tag": "button",
+          "role": null,
+          "aria": null,
+          "pressed": null,
+          "now": null,
+          "min": null,
+          "max": null,
+          "disabled": false,
+          "text": "Confirm"
+        }
+      ]
+    }
+  ],
+  "pax_add_buttons": 4
+}

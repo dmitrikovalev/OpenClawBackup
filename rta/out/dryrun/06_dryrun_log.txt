@@ -1,0 +1,5 @@
+{"t": "14:27:33", "event": "trip_found", "trip_id": 15644, "date": "2026-10-28", "departure": "08:30", "arrival": "10:15", "seats_standard": 39, "price_per_ticket": 25.0, "total": 25.0, "currency": "AED", "route": "E101: Abu Dhabi, Central Bus Station 1 → Dubai, Ibn Battuta Bus Station 8", "passengers": 1}
+{"t": "14:28:04", "event": "screenshot", "path": "out/06_01_trip_selected.png"}
+{"t": "14:28:08", "event": "seats_held", "hold_id": 48176, "expires_at": "2026-10-26T14:43:05.367Z", "seats": ["53"], "seat_ids": [860366], "from_hub": true}
+{"t": "14:28:09", "event": "screenshot", "path": "out/06_02_seats_dialog.png"}
+{"t": "14:28:18", "event": "seats_released", "seats_still_reserved": []}

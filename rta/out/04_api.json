@@ -1,0 +1,389 @@
+[
+  {
+    "t": 2.75,
+    "method": "POST",
+    "url": "https://bus-api.rta.ae/hubs/booking/negotiate?negotiateVersion=1",
+    "status": 200,
+    "type": "fetch",
+    "req_headers": {
+      "referer": "https://bus.rta.ae/",
+      "accept-language": "en-US",
+      "x-signalr-user-agent": "Microsoft SignalR/10.0 (10.0.0; Unknown OS; Browser; Unknown Runtime Version)",
+      "x-requested-with": "XMLHttpRequest"
+    },
+    "body": "{\"negotiateVersion\":1,\"connectionId\":\"R0CxS7LVh7UzxQ-aNJ7i_A\",\"connectionToken\":\"LXvHuH_GejhKtiobQZXMhA\",\"availableTransports\":[{\"transport\":\"ServerSentEvents\",\"transferFormats\":[\"Text\"]},{\"transport\":\"LongPolling\",\"transferFormats\":[\"Text\",\"Binary\"]}]}"
+  },
+  {
+    "t": 2.84,
+    "method": "GET",
+    "url": "https://bus-api.rta.ae/api/v1/b2c/provider/portal-configuration?providerId=1",
+    "status": 200,
+    "type": "fetch",
+    "req_headers": {
+      "referer": "https://bus.rta.ae/",
+      "accept-language": "en",
+      "x-requested-with": "XMLHttpRequest",
+      "accept": "application/json",
+      "content-type": "application/json, application/json",
+      "x-fingerprint": "18b6d018-1b45-4808-bdc0-7ed6c85ae505"
+    },
+    "body": "{\"data\":{\"maintenanceMode\":{\"isMaintenanceModeEnabled\":false,\"maintenanceMessage\":\"\\\"\\\"\",\"startDateTimeUtc\":null,\"endDateTimeUtc\":null,\"startDateTimeLocal\":null,\"endDateTimeLocal\":null},\"notificationBanner\":{\"isNotificationBannerEnabled\":false,\"notificationBannerMessage\":\"\\\"\\\"\",\"startDateTimeUtc\":null,\"endDateTimeUtc\":null,\"startDateTimeLocal\":null,\"endDateTimeLocal\":null},\"portalConfig\":{\"API_BASE_URL\":\"\",\"PRODUCT_API_BASE_URL\":\"\",\"SERVER\":\"\",\"API_USE_PROXY\":\"true\",\"SIGNALR_URL\":\"\",\"SIGNALR_USE_PROXY\":\"true\",\"SIGNALR_LOGGING\":\"true\",\"PROVIDER\":\"1\",\"API_TIMEOUT\":\"10000\",\"API_RETRY_ATTEMPTS\":\"0\",\"RTA_PORTAL_BASE_URL\":\"\",\"ENABLE_EMAIL_PHONE_LOGIN\":\"true\",\"ENABLE_EXTRA_LUGGAGE\":\"false\",\"ENABLE_ROUND_TRIP\":\"false\",\"ENABLE_SPECIAL_EVENTS\":\"false\",\"ENABLE_REFUND_REQUEST\":\"true\",\"ENABLE_REFUND_INVOICES\":\"true\",\"ENABLE_REFUND_REQUESTS\":\"true\",\"ENABLE_MANAGE_TICKET_REFUND\":\"true\",\"ROUTE_STOPS_DISPLAY_MODE\":\"collapsed\",\"PAYMENT_RETRY_COOLDOWN_SECONDS\":\"60\",\"OTP_RESEND_SECONDS\":\"60\",\"OTP_LENGTH\":\"4\",\"MAX_PASSENGERS\":\"10\"},\"baseB2CUrl\":\"bus.rta.ae\",\"enableExtraServices\":false}}"
+  },
+  {
+    "t": 3.19,
+    "method": "GET",
+    "url": "https://bus-api.rta.ae/api/v1/b2c/faqs?providerId=1",
+    "status": 200,
+    "type": "fetch",
+    "req_headers": {
+      "referer": "https://bus.rta.ae/",
+      "accept-language": "en",
+      "x-requested-with": "XMLHttpRequest",
+      "accept": "application/json",
+      "content-type": "application/json, application/json",
+      "x-fingerprint": "18b6d018-1b45-4808-bdc0-7ed6c85ae505"
+    },
+    "body": "{\"data\":[]}"
+  },
+  {
+    "t": 3.28,
+    "method": "POST",
+    "url": "https://bus-api.rta.ae/hubs/booking?id=LXvHuH_GejhKtiobQZXMhA",
+    "status": 200,
+    "type": "fetch",
+    "post_data": "{\"protocol\":\"json\",\"version\":1}\u001e",
+    "req_headers": {
+      "referer": "https://bus.rta.ae/",
+      "accept-language": "en-US",
+      "x-signalr-user-agent": "Microsoft SignalR/10.0 (10.0.0; Unknown OS; Browser; Unknown Runtime Version)",
+      "x-requested-with": "XMLHttpRequest",
+      "content-type": "text/plain;charset=UTF-8"
+    },
+    "body": ""
+  },
+  {
+    "t": 3.29,
+    "method": "GET",
+    "url": "https://bus-api.rta.ae/api/v1/b2c/passengertypes?providerId=1",
+    "status": 200,
+    "type": "fetch",
+    "req_headers": {
+      "referer": "https://bus.rta.ae/",
+      "accept-language": "en",
+      "x-requested-with": "XMLHttpRequest",
+      "accept": "application/json",
+      "content-type": "application/json, application/json",
+      "x-fingerprint": "18b6d018-1b45-4808-bdc0-7ed6c85ae505"
+    },
+    "body": "{\"data\":{\"items\":[{\"id\":1,\"name\":\"Adult\",\"code\":\"Adult\",\"isActive\":true,\"isArchived\":false,\"configurationCount\":1,\"configurations\":[{\"id\":1,\"providerId\":1,\"providerName\":\"Intercity\",\"mode\":\"General\",\"discountType\":\"WithoutDiscount\",\"discountValue\":0.0000,\"discountDescription\":\"\",\"withSeat\":true,\"requiresPrioritySeat\":false,\"routeId\":null,\"effectiveDateUtc\":\"2026-08-30T06:14:07.82\",\"endDateUtc\":null,\"isActive\":true,\"isArchived\":false,\"archivedAt\":null}]},{\"id\":3,\"name\":\"Child Under 5 Years Old\",\"code\":\"ChildUnder5\",\"isActive\":true,\"isArchived\":false,\"configurationCount\":1,\"configurations\":[{\"id\":2,\"providerId\":1,\"providerName\":\"Intercity\",\"mode\":\"General\",\"discountType\":\"Percentage\",\"discountValue\":100.0000,\"discountDescription\":\"Free of charge\",\"withSeat\":false,\"requiresPrioritySeat\":false,\"routeId\":null,\"effectiveDateUtc\":\"2026-08-30T06:14:07.82\",\"endDateUtc\":null,\"isActive\":true,\"isArchived\":false,\"archivedAt\":null}]},{\"id\":7,\"name\":\"POD\",\"code\":\"Pod\",\"isActive\":true,\"isArchived\":false,\"configurationCount\":1,\"configurations\":[{\"id\":7,\"providerId\":1,\"providerName\":\"Intercity\",\"mode\":\"General\",\"discountType\":\"Percentage\",\"discountValue\":100.0000,\"discountDescription\":\"Free\",\"withSeat\":true,\"requiresPrioritySeat\":false,\"routeId\":null,\"effectiveDateUtc\":\"2026-09-19T12:41:02.778\",\"endDateUtc\":null,\"isActive\":true,\"isArchived\":false,\"archivedAt\":null}]},{\"id\":5,\"name\":\"Senior Citizen\",\"code\":\"SeniorCitizen\",\"isActive\":true,\"isArchived\":false,\"configurationCount\":1,\"configurations\":[{\"id\":4,\"providerId\":1,\"providerName\":\"Intercity\",\"mode\":\"General\",\"discountType\":\"WithoutDiscount\",\"discountValue\":0.0000,\"discountDescription\":\"\",\"withSeat\":true,\"requiresPrioritySeat\":false,\"routeId\":null,\"effectiveDateUtc\":\"2026-08-30T06:14:07.82\",\"endDateUtc\":null,\"isActive\":true,\"isArchived\":false,\"archivedAt\":null}]}]}}"
+  },
+  {
+    "t": 3.57,
+    "method": "POST",
+    "url": "https://bus-api.rta.ae/hubs/booking?id=LXvHuH_GejhKtiobQZXMhA",
+    "status": 200,
+    "type": "fetch",
+    "post_data": "{\"type\":6}\u001e",
+    "req_headers": {
+      "referer": "https://bus.rta.ae/",
+      "accept-language": "en-US",
+      "x-signalr-user-agent": "Microsoft SignalR/10.0 (10.0.0; Unknown OS; Browser; Unknown Runtime Version)",
+      "x-requested-with": "XMLHttpRequest",
+      "content-type": "text/plain;charset=UTF-8"
+    },
+    "body": ""
+  },
+  {
+    "t": 3.03,
+    "method": "GET",
+    "url": "https://bus-api.rta.ae/hubs/booking?id=LXvHuH_GejhKtiobQZXMhA",
+    "status": 200,
+    "type": "eventsource",
+    "req_headers": {
+      "referer": "https://bus.rta.ae/",
+      "accept": "text/event-stream",
+      "accept-language": "en-US"
+    }
+  },
+  {
+    "t": 6.98,
+    "method": "GET",
+    "url": "https://bus-api.rta.ae/api/v1/b2c/booking/locations/by-name?IsBoarding=true&Page=1&PageSize=10&providerId=1",
+    "status": 200,
+    "type": "fetch",
+    "req_headers": {
+      "referer": "https://bus.rta.ae/",
+      "accept-language": "en",
+      "x-requested-with": "XMLHttpRequest",
+      "accept": "application/json",
+      "content-type": "application/json, application/json",
+      "x-fingerprint": "18b6d018-1b45-4808-bdc0-7ed6c85ae505"
+    },
+    "body": "{\"data\":{\"items\":[{\"id\":1,\"name\":\"Dubai, Al Ghubaiba Bus Station\"},{\"id\":6,\"name\":\"Dubai, Ibn Battuta Bus Station\"},{\"id\":15,\"name\":\"Dubai, Etisalat Bus Station\"},{\"id\":4,\"name\":\"Abu Dhabi, Central Bus Station\"},{\"id\":14,\"name\":\"Al Ain Central Bus Station\"},{\"id\":22,\"name\":\"Fujairah Bus Station\"}],\"page\":1,\"pageSize\":10,\"totalCount\":6,\"totalPages\":1,\"hasPreviousPage\":false,\"hasNextPage\":false,\"count\":6}}"
+  },
+  {
+    "t": 7.01,
+    "method": "POST",
+    "url": "https://bus-api.rta.ae/hubs/booking?id=LXvHuH_GejhKtiobQZXMhA",
+    "status": 404,
+    "type": "fetch",
+    "post_data": "{\"type\":7}\u001e",
+    "req_headers": {
+      "referer": "https://bus.rta.ae/",
+      "accept-language": "en-US",
+      "x-signalr-user-agent": "Microsoft SignalR/10.0 (10.0.0; Unknown OS; Browser; Unknown Runtime Version)",
+      "x-requested-with": "XMLHttpRequest",
+      "content-type": "text/plain;charset=UTF-8"
+    },
+    "body": "No Connection with that ID"
+  },
+  {
+    "t": 7.05,
+    "method": "GET",
+    "url": "https://bus-api.rta.ae/api/v1/b2c/booking/locations/by-name?IsAlighting=true&Page=1&PageSize=10&providerId=1",
+    "status": 200,
+    "type": "fetch",
+    "req_headers": {
+      "referer": "https://bus.rta.ae/",
+      "accept-language": "en",
+      "x-requested-with": "XMLHttpRequest",
+      "accept": "application/json",
+      "content-type": "application/json, application/json",
+      "x-fingerprint": "18b6d018-1b45-4808-bdc0-7ed6c85ae505"
+    },
+    "body": "{\"data\":{\"items\":[{\"id\":4,\"name\":\"Abu Dhabi, Central Bus Station\"},{\"id\":14,\"name\":\"Al Ain Central Bus Station\"},{\"id\":22,\"name\":\"Fujairah Bus Station\"},{\"id\":1,\"name\":\"Dubai, Al Ghubaiba Bus Station\"},{\"id\":6,\"name\":\"Dubai, Ibn Battuta Bus Station\"},{\"id\":15,\"name\":\"Dubai, Etisalat Bus Station\"},{\"id\":5,\"name\":\"Dubai, Al Jafiliya Bus Station\"},{\"id\":2,\"name\":\"Abu Dhabi, Samha\"},{\"id\":3,\"name\":\"Abu Dhabi, Shahama Village\"},{\"id\":21,\"name\":\"Masafi, Hospital\"}],\"page\":1,\"pageSize\":10,\"totalCount\":21,\"totalPages\":3,\"hasPreviousPage\":false,\"hasNextPage\":true,\"count\":10}}"
+  },
+  {
+    "t": 10.05,
+    "method": "GET",
+    "url": "https://bus-api.rta.ae/api/v1/b2c/booking/locations/by-name?NameFilter=Abu+Dhabi&IsBoarding=true&Page=1&PageSize=10&providerId=1",
+    "status": 200,
+    "type": "fetch",
+    "req_headers": {
+      "referer": "https://bus.rta.ae/",
+      "accept-language": "en",
+      "x-requested-with": "XMLHttpRequest",
+      "accept": "application/json",
+      "content-type": "application/json, application/json",
+      "x-fingerprint": "18b6d018-1b45-4808-bdc0-7ed6c85ae505"
+    },
+    "body": "{\"data\":{\"items\":[{\"id\":4,\"name\":\"Abu Dhabi, Central Bus Station\"}],\"page\":1,\"pageSize\":10,\"totalCount\":1,\"totalPages\":1,\"hasPreviousPage\":false,\"hasNextPage\":false,\"count\":1}}"
+  },
+  {
+    "t": 12.33,
+    "method": "GET",
+    "url": "https://bus-api.rta.ae/api/v1/b2c/booking/locations/by-name?IsAlighting=true&Page=1&PageSize=20&BoardingLocationId=4&providerId=1",
+    "status": 200,
+    "type": "fetch",
+    "req_headers": {
+      "referer": "https://bus.rta.ae/",
+      "accept-language": "en",
+      "x-requested-with": "XMLHttpRequest",
+      "accept": "application/json",
+      "content-type": "application/json, application/json",
+      "x-fingerprint": "18b6d018-1b45-4808-bdc0-7ed6c85ae505"
+    },
+    "body": "{\"data\":{\"items\":[{\"id\":1,\"name\":\"Dubai, Al Ghubaiba Bus Station\"},{\"id\":6,\"name\":\"Dubai, Ibn Battuta Bus Station\"},{\"id\":5,\"name\":\"Dubai, Al Jafiliya Bus Station\"}],\"page\":1,\"pageSize\":20,\"totalCount\":3,\"totalPages\":1,\"hasPreviousPage\":false,\"hasNextPage\":false,\"count\":3}}"
+  },
+  {
+    "t": 15.19,
+    "method": "GET",
+    "url": "https://bus-api.rta.ae/api/v1/b2c/booking/locations/by-name?NameFilter=Ibn+Battuta&IsAlighting=true&Page=1&PageSize=10&BoardingLocationId=4&providerId=1",
+    "status": 200,
+    "type": "fetch",
+    "req_headers": {
+      "referer": "https://bus.rta.ae/",
+      "accept-language": "en",
+      "x-requested-with": "XMLHttpRequest",
+      "accept": "application/json",
+      "content-type": "application/json, application/json",
+      "x-fingerprint": "18b6d018-1b45-4808-bdc0-7ed6c85ae505"
+    },
+    "body": "{\"data\":{\"items\":[{\"id\":6,\"name\":\"Dubai, Ibn Battuta Bus Station\"}],\"page\":1,\"pageSize\":10,\"totalCount\":1,\"totalPages\":1,\"hasPreviousPage\":false,\"hasNextPage\":false,\"count\":1}}"
+  },
+  {
+    "t": 17.12,
+    "method": "GET",
+    "url": "https://bus-api.rta.ae/api/v1/b2c/booking/locations/by-name?IsBoarding=true&Page=1&PageSize=20&AlightingLocationId=6&providerId=1",
+    "status": 200,
+    "type": "fetch",
+    "req_headers": {
+      "referer": "https://bus.rta.ae/",
+      "accept-language": "en",
+      "x-requested-with": "XMLHttpRequest",
+      "accept": "application/json",
+      "content-type": "application/json, application/json",
+      "x-fingerprint": "18b6d018-1b45-4808-bdc0-7ed6c85ae505"
+    },
+    "body": "{\"data\":{\"items\":[{\"id\":4,\"name\":\"Abu Dhabi, Central Bus Station\"}],\"page\":1,\"pageSize\":20,\"totalCount\":1,\"totalPages\":1,\"hasPreviousPage\":false,\"hasNextPage\":false,\"count\":1}}"
+  },
+  {
+    "t": 18.65,
+    "method": "GET",
+    "url": "https://bus-api.rta.ae/api/v1/b2c/booking/route-patterns/by-locations?DepartureLocationId=4&DestinationLocationId=6&providerId=1",
+    "status": 200,
+    "type": "fetch",
+    "req_headers": {
+      "referer": "https://bus.rta.ae/",
+      "accept-language": "en",
+      "x-requested-with": "XMLHttpRequest",
+      "accept": "application/json",
+      "content-type": "application/json, application/json",
+      "x-fingerprint": "18b6d018-1b45-4808-bdc0-7ed6c85ae505"
+    },
+    "body": "{\"data\":{\"items\":[{\"costAmount\":25.00,\"costCurrency\":\"AED\",\"id\":4,\"routeId\":2,\"code\":\"E101-In\",\"direction\":\"In\",\"isActive\":true,\"stops\":[{\"id\":13,\"routePatternId\":4,\"sequenceNumber\":1,\"isBoardingAllowed\":true,\"isAlightingAllowed\":false,\"isActive\":true,\"stationId\":6,\"locationId\":4,\"station\":{\"id\":6,\"externalId\":\"141501\",\"name\":\"Abu Dhabi, Central Bus Station 1\",\"providerId\":1,\"providerCode\":\"INTERCITY\",\"latitude\":24.471254,\"longitude\":54.375751,\"isActive\":true,\"locationId\":4}},{\"id\":15,\"routePatternId\":4,\"sequenceNumber\":3,\"isBoardingAllowed\":false,\"isAlightingAllowed\":true,\"isActive\":true,\"stationId\":8,\"locationId\":6,\"station\":{\"id\":8,\"externalId\":\"903508\",\"name\":\"Dubai, Ibn Battuta Bus Station 8\",\"providerId\":1,\"providerCode\":\"INTERCITY\",\"latitude\":25.046117,\"longitude\":55.117972,\"isActive\":true,\"locationId\":6}}],\"title\":\"E101: Abu Dhabi, Central Bus Station 1 → Dubai, Ibn Battuta Bus Station 8\"}]}}"
+  },
+  {
+    "t": 18.95,
+    "method": "GET",
+    "url": "https://bus-api.rta.ae/api/v1/b2c/booking/route-patterns/4/scheduled-trips?Page=1&PageSize=10&DateUtc=2026-10-26&TimeUtc=13%3A51%3A00&RequiredStandardCount=1&RequiredWheelchairCount=0&RequiredPODCount=0&BoardingPatternStopId=13&AlightingPatternStopId=15&providerId=1",
+    "status": 200,
+    "type": "fetch",
+    "req_headers": {
+      "referer": "https://bus.rta.ae/",
+      "accept-language": "en",
+      "x-requested-with": "XMLHttpRequest",
+      "accept": "application/json",
+      "content-type": "application/json, application/json",
+      "x-fingerprint": "18b6d018-1b45-4808-bdc0-7ed6c85ae505"
+    },
+    "body": "{\"data\":{\"items\":[{\"id\":15152,\"date\":\"2026-10-26\",\"timeZone\":\"Asia/Dubai\",\"plannedStartTime\":\"18:30:00\",\"plannedEndTime\":\"20:15:00\",\"status\":\"Planned\",\"availableSeatCounts\":{\"Standard\":38,\"Wheelchair\":0,\"POD\":0,\"Priority\":16},\"totalAvailableSeatCount\":54,\"isSpecial\":false,\"specialEventName\":\"\",\"requireSeat\":true},{\"id\":15153,\"date\":\"2026-10-26\",\"timeZone\":\"Asia/Dubai\",\"plannedStartTime\":\"18:50:00\",\"plannedEndTime\":\"20:35:00\",\"status\":\"Planned\",\"availableSeatCounts\":{\"Standard\":39,\"Wheelchair\":0,\"POD\":0,\"Priority\":16},\"totalAvailableSeatCount\":55,\"isSpecial\":false,\"specialEventName\":\"\",\"requireSeat\":true},{\"id\":15154,\"date\":\"2026-10-26\",\"timeZone\":\"Asia/Dubai\",\"plannedStartTime\":\"19:10:00\",\"plannedEndTime\":\"20:55:00\",\"status\":\"Planned\",\"availableSeatCounts\":{\"Standard\":39,\"Wheelchair\":0,\"POD\":0,\"Priority\":16},\"totalAvailableSeatCount\":55,\"isSpecial\":false,\"specialEventName\":\"\",\"requireSeat\":true},{\"id\":15155,\"date\":\"2026-10-26\",\"timeZone\":\"Asia/Dubai\",\"plannedStartTime\":\"19:30:00\",\"plannedEndTime\":\"21:15:00\",\"status\":\"Planned\",\"availableSeatCounts\":{\"Standard\":38,\"Wheelchair\":0,\"POD\":0,\"Priority\":16},\"totalAvailableSeatCount\":54,\"isSpecial\":false,\"specialEventName\":\"\",\"requireSeat\":true},{\"id\":15156,\"date\":\"2026-10-26\",\"timeZone\":\"Asia/Dubai\",\"plannedStartTime\":\"19:50:00\",\"plannedEndTime\":\"21:35:00\",\"status\":\"Planned\",\"availableSeatCounts\":{\"Standard\":39,\"Wheelchair\":0,\"POD\":0,\"Priority\":16},\"totalAvailableSeatCount\":55,\"isSpecial\":false,\"specialEventName\":\"\",\"requireSeat\":true},{\"id\":15157,\"date\":\"2026-10-26\",\"timeZone\":\"Asia/Dubai\",\"plannedStartTime\":\"20:10:00\",\"plannedEndTime\":\"21:55:00\",\"status\":\"Planned\",\"availableSeatCounts\":{\"Standard\":39,\"Wheelchair\":0,\"POD\":0,\"Priority\":16},\"totalAvailableSeatCount\":55,\"isSpecial\":false,\"specialEventName\":\"\",\"requireSeat\":true},{\"id\":15158,\"date\":\"2026-10-26\",\"timeZone\":\"Asia/Dubai\",\"plannedStartTime\":\"20:30:00\",\"plannedEndTime\":\"22:15:00\",\"status\":\"Planned\",\"availableSeatCounts\":{\"Standard\":39,\"Wheelchair\":0,\"POD\":0,\"Priority\":16},\"totalAvailableSeatCount\":55,\"isSpecial\":false,\"specialEventName\":\"\",\"requireSeat\":true},{\"id\":15159,\"date\":\"2026-10-26\",\"timeZone\":\"Asia/Dubai\",\"plannedStartTime\":\"20:50:00\",\"plannedEndTime\":\"22:35:00\",\"status\":\"Planned\",\"availableSeatCounts\":{\"Standard\":39,\"Wheelchair\":0,\"POD\":0,\"Priority\":16},\"totalAvailableSeatCount\":55,\"isSpecial\":false,\"specialEventName\":\"\",\"requireSeat\":true},{\"id\":15160,\"date\":\"2026-10-26\",\"timeZone\":\"Asia/Dubai\",\"plannedStartTime\":\"21:10:00\",\"plannedEndTime\":\"22:55:00\",\"status\":\"Planned\",\"availableSeatCounts\":{\"Standard\":39,\"Wheelchair\":0,\"POD\":0,\"Priority\":16},\"totalAvailableSeatCount\":55,\"isSpecial\":false,\"specialEventName\":\"\",\"requireSeat\":true},{\"id\":15161,\"date\":\"2026-10-26\",\"timeZone\":\"Asia/Dubai\",\"plannedStartTime\":\"21:30:00\",\"plannedEndTime\":\"23:15:00\",\"status\":\"Planned\",\"availableSeatCounts\":{\"Standard\":39,\"Wheelchair\":0,\"POD\":0,\"Priority\":16},\"totalAvailableSeatCount\":55,\"isSpecial\":false,\"specialEventName\":\"\",\"requireSeat\":true}],\"page\":1,\"pageSize\":10,\"totalCount\":56,\"totalPages\":6,\"hasPreviousPage\":false,\"hasNextPage\":true,\"count\":10}}"
+  },
+  {
+    "t": 23.34,
+    "method": "POST",
+    "url": "https://bus-api.rta.ae/hubs/booking/negotiate?negotiateVersion=1",
+    "status": 200,
+    "type": "fetch",
+    "req_headers": {
+      "referer": "https://bus.rta.ae/",
+      "accept-language": "en-US",
+      "x-signalr-user-agent": "Microsoft SignalR/10.0 (10.0.0; Unknown OS; Browser; Unknown Runtime Version)",
+      "x-requested-with": "XMLHttpRequest"
+    },
+    "body": "{\"negotiateVersion\":1,\"connectionId\":\"4F9K8-76_1YAAz8Y7Rnr9Q\",\"connectionToken\":\"k3PxEQv5W9FJo7K3kzECPA\",\"availableTransports\":[{\"transport\":\"ServerSentEvents\",\"transferFormats\":[\"Text\"]},{\"transport\":\"LongPolling\",\"transferFormats\":[\"Text\",\"Binary\"]}]}"
+  },
+  {
+    "t": 23.61,
+    "method": "POST",
+    "url": "https://bus-api.rta.ae/hubs/booking?id=k3PxEQv5W9FJo7K3kzECPA",
+    "status": 200,
+    "type": "fetch",
+    "post_data": "{\"protocol\":\"json\",\"version\":1}\u001e",
+    "req_headers": {
+      "referer": "https://bus.rta.ae/",
+      "accept-language": "en-US",
+      "x-signalr-user-agent": "Microsoft SignalR/10.0 (10.0.0; Unknown OS; Browser; Unknown Runtime Version)",
+      "x-requested-with": "XMLHttpRequest",
+      "content-type": "text/plain;charset=UTF-8"
+    },
+    "body": ""
+  },
+  {
+    "t": 23.76,
+    "method": "POST",
+    "url": "https://bus-api.rta.ae/hubs/booking?id=k3PxEQv5W9FJo7K3kzECPA",
+    "status": 200,
+    "type": "fetch",
+    "post_data": "{\"type\":6}\u001e",
+    "req_headers": {
+      "referer": "https://bus.rta.ae/",
+      "accept-language": "en-US",
+      "x-signalr-user-agent": "Microsoft SignalR/10.0 (10.0.0; Unknown OS; Browser; Unknown Runtime Version)",
+      "x-requested-with": "XMLHttpRequest",
+      "content-type": "text/plain;charset=UTF-8"
+    },
+    "body": ""
+  },
+  {
+    "t": 23.93,
+    "method": "POST",
+    "url": "https://bus-api.rta.ae/hubs/booking?id=k3PxEQv5W9FJo7K3kzECPA",
+    "status": 200,
+    "type": "fetch",
+    "post_data": "{\"target\":\"JoinScheduledTripAsCustomer\",\"arguments\":[15152],\"invocationId\":\"0\",\"type\":1}\u001e",
+    "req_headers": {
+      "referer": "https://bus.rta.ae/",
+      "accept-language": "en-US",
+      "x-signalr-user-agent": "Microsoft SignalR/10.0 (10.0.0; Unknown OS; Browser; Unknown Runtime Version)",
+      "x-requested-with": "XMLHttpRequest",
+      "content-type": "text/plain;charset=UTF-8"
+    },
+    "body": ""
+  },
+  {
+    "t": 24.18,
+    "method": "POST",
+    "url": "https://bus-api.rta.ae/hubs/booking?id=k3PxEQv5W9FJo7K3kzECPA",
+    "status": 200,
+    "type": "fetch",
+    "post_data": "{\"target\":\"AutoSelectReservation\",\"arguments\":[15152,{\"boardingStopId\":13,\"alightingStopId\":15,\"passengers\":[{\"passengerTypeId\":1,\"count\":1}]}],\"invocationId\":\"1\",\"type\":1}\u001e",
+    "req_headers": {
+      "referer": "https://bus.rta.ae/",
+      "accept-language": "en-US",
+      "x-signalr-user-agent": "Microsoft SignalR/10.0 (10.0.0; Unknown OS; Browser; Unknown Runtime Version)",
+      "x-requested-with": "XMLHttpRequest",
+      "content-type": "text/plain;charset=UTF-8"
+    },
+    "body": ""
+  },
+  {
+    "t": 24.66,
+    "method": "GET",
+    "url": "https://bus-api.rta.ae/api/v1/b2c/booking/scheduled-trips/15152/seats?BoardingPatternStopId=13&AlightingPatternStopId=15&providerId=1",
+    "status": 200,
+    "type": "fetch",
+    "req_headers": {
+      "referer": "https://bus.rta.ae/",
+      "accept-language": "en",
+      "x-requested-with": "XMLHttpRequest",
+      "accept": "application/json",
+      "content-type": "application/json, application/json",
+      "x-fingerprint": "18b6d018-1b45-4808-bdc0-7ed6c85ae505"
+    },
+    "body": "{\"data\":{\"floors\":[{\"floorNumber\":1,\"width\":1039.00,\"height\":371.00,\"numberOfSeats\":55,\"seatedCapacity\":55,\"standingCapacity\":0,\"totalCapacity\":55,\"backgroundImageUrl\":\"/files/floor-background-images/vehicle-seat-templates/1/floors/1/074fb16ce8b94286be89808e776c55d4.png\"}],\"seats\":[{\"id\":833306,\"sourceTemplateSeatId\":6,\"title\":\"53\",\"floorNumber\":1,\"posX\":55.00,\"posY\":45.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":false,\"isReserved\":true,\"isCheckedIn\":false},{\"id\":833307,\"sourceTemplateSeatId\":7,\"title\":\"49\",\"floorNumber\":1,\"posX\":110.00,\"posY\":45.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":false,\"isReserved\":true,\"isCheckedIn\":false},{\"id\":833308,\"sourceTemplateSeatId\":8,\"title\":\"45\",\"floorNumber\":1,\"posX\":170.00,\"posY\":45.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833309,\"sourceTemplateSeatId\":1,\"title\":\"41\",\"floorNumber\":1,\"posX\":230.00,\"posY\":45.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833310,\"sourceTemplateSeatId\":2,\"title\":\"37\",\"floorNumber\":1,\"posX\":285.00,\"posY\":45.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833311,\"sourceTemplateSeatId\":3,\"title\":\"33\",\"floorNumber\":1,\"posX\":345.00,\"posY\":45.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833312,\"sourceTemplateSeatId\":9,\"title\":\"29\",\"floorNumber\":1,\"posX\":400.00,\"posY\":45.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833313,\"sourceTemplateSeatId\":4,\"title\":\"25\",\"floorNumber\":1,\"posX\":460.00,\"posY\":45.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833314,\"sourceTemplateSeatId\":5,\"title\":\"21\",\"floorNumber\":1,\"posX\":515.00,\"posY\":45.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833315,\"sourceTemplateSeatId\":55,\"title\":\"17\",\"floorNumber\":1,\"posX\":570.00,\"posY\":45.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833316,\"sourceTemplateSeatId\":47,\"title\":\"13\",\"floorNumber\":1,\"posX\":630.00,\"posY\":45.00,\"type\":\"Priority\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833317,\"sourceTemplateSeatId\":48,\"title\":\"9\",\"floorNumber\":1,\"posX\":685.00,\"posY\":45.00,\"type\":\"Priority\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833318,\"sourceTemplateSeatId\":49,\"title\":\"5\",\"floorNumber\":1,\"posX\":745.00,\"posY\":45.00,\"type\":\"Priority\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833319,\"sourceTemplateSeatId\":51,\"title\":\"1\",\"floorNumber\":1,\"posX\":800.00,\"posY\":45.00,\"type\":\"Priority\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833320,\"sourceTemplateSeatId\":34,\"title\":\"54\",\"floorNumber\":1,\"posX\":55.00,\"posY\":100.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833321,\"sourceTemplateSeatId\":25,\"title\":\"50\",\"floorNumber\":1,\"posX\":110.00,\"posY\":100.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833322,\"sourceTemplateSeatId\":20,\"title\":\"46\",\"floorNumber\":1,\"posX\":170.00,\"posY\":100.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833323,\"sourceTemplateSeatId\":11,\"title\":\"42\",\"floorNumber\":1,\"posX\":230.00,\"posY\":100.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833324,\"sourceTemplateSeatId\":12,\"title\":\"38\",\"floorNumber\":1,\"posX\":285.00,\"posY\":100.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833325,\"sourceTemplateSeatId\":13,\"title\":\"34\",\"floorNumber\":1,\"posX\":345.00,\"posY\":100.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833326,\"sourceTemplateSeatId\":14,\"title\":\"30\",\"floorNumber\":1,\"posX\":400.00,\"posY\":100.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833327,\"sourceTemplateSeatId\":15,\"title\":\"26\",\"floorNumber\":1,\"posX\":460.00,\"posY\":100.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833328,\"sourceTemplateSeatId\":10,\"title\":\"22\",\"floorNumber\":1,\"posX\":515.00,\"posY\":100.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833329,\"sourceTemplateSeatId\":45,\"title\":\"18\",\"floorNumber\":1,\"posX\":570.00,\"posY\":100.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833330,\"sourceTemplateSeatId\":46,\"title\":\"14\",\"floorNumber\":1,\"posX\":630.00,\"posY\":100.00,\"type\":\"Priority\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833331,\"sourceTemplateSeatId\":54,\"title\":\"10\",\"floorNumber\":1,\"posX\":685.00,\"posY\":100.00,\"type\":\"Priority\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833332,\"sourceTemplateSeatId\":53,\"title\":\"6\",\"floorNumber\":1,\"posX\":745.00,\"posY\":100.00,\"type\":\"Priority\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833333,\"sourceTemplateSeatId\":52,\"title\":\"2\",\"floorNumber\":1,\"posX\":800.00,\"posY\":100.00,\"type\":\"Priority\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833334,\"sourceTemplateSeatId\":35,\"title\":\"55\",\"floorNumber\":1,\"posX\":55.00,\"posY\":160.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833335,\"sourceTemplateSeatId\":16,\"title\":\"52\",\"floorNumber\":1,\"posX\":55.00,\"posY\":215.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833336,\"sourceTemplateSeatId\":17,\"title\":\"48\",\"floorNumber\":1,\"posX\":110.00,\"posY\":215.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833337,\"sourceTemplateSeatId\":29,\"title\":\"44\",\"floorNumber\":1,\"posX\":170.00,\"posY\":215.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833338,\"sourceTemplateSeatId\":18,\"title\":\"40\",\"floorNumber\":1,\"posX\":230.00,\"posY\":215.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833339,\"sourceTemplateSeatId\":19,\"title\":\"36\",\"floorNumber\":1,\"posX\":285.00,\"posY\":215.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833340,\"sourceTemplateSeatId\":36,\"title\":\"31\",\"floorNumber\":1,\"posX\":440.00,\"posY\":215.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833341,\"sourceTemplateSeatId\":38,\"title\":\"28\",\"floorNumber\":1,\"posX\":495.00,\"posY\":215.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833342,\"sourceTemplateSeatId\":40,\"title\":\"24\",\"floorNumber\":1,\"posX\":550.00,\"posY\":215.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833343,\"sourceTemplateSeatId\":37,\"title\":\"20\",\"floorNumber\":1,\"posX\":605.00,\"posY\":215.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833344,\"sourceTemplateSeatId\":39,\"title\":\"16\",\"floorNumber\":1,\"posX\":660.00,\"posY\":215.00,\"type\":\"Priority\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833345,\"sourceTemplateSeatId\":42,\"title\":\"12\",\"floorNumber\":1,\"posX\":715.00,\"posY\":215.00,\"type\":\"Priority\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833346,\"sourceTemplateSeatId\":44,\"title\":\"8\",\"floorNumber\":1,\"posX\":775.00,\"posY\":215.00,\"type\":\"Priority\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833347,\"sourceTemplateSeatId\":31,\"title\":\"4\",\"floorNumber\":1,\"posX\":825.00,\"posY\":215.00,\"type\":\"Priority\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833348,\"sourceTemplateSeatId\":21,\"title\":\"51\",\"floorNumber\":1,\"posX\":55.00,\"posY\":270.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833349,\"sourceTemplateSeatId\":22,\"title\":\"47\",\"floorNumber\":1,\"posX\":110.00,\"posY\":270.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833350,\"sourceTemplateSeatId\":33,\"title\":\"43\",\"floorNumber\":1,\"posX\":170.00,\"posY\":270.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833351,\"sourceTemplateSeatId\":23,\"title\":\"39\",\"floorNumber\":1,\"posX\":230.00,\"posY\":270.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833352,\"sourceTemplateSeatId\":24,\"title\":\"35\",\"floorNumber\":1,\"posX\":285.00,\"posY\":270.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833353,\"sourceTemplateSeatId\":32,\"title\":\"32\",\"floorNumber\":1,\"posX\":440.00,\"posY\":270.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833354,\"sourceTemplateSeatId\":26,\"title\":\"27\",\"floorNumber\":1,\"posX\":495.00,\"posY\":270.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833355,\"sourceTemplateSeatId\":30,\"title\":\"23\",\"floorNumber\":1,\"posX\":550.00,\"posY\":270.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833356,\"sourceTemplateSeatId\":41,\"title\":\"19\",\"floorNumber\":1,\"posX\":605.00,\"posY\":270.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833357,\"sourceTemplateSeatId\":28,\"title\":\"15\",\"floorNumber\":1,\"posX\":660.00,\"posY\":270.00,\"type\":\"Priority\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833358,\"sourceTemplateSeatId\":27,\"title\":\"11\",\"floorNumber\":1,\"posX\":715.00,\"posY\":270.00,\"type\":\"Priority\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833359,\"sourceTemplateSeatId\":43,\"title\":\"7\",\"floorNumber\":1,\"posX\":775.00,\"posY\":270.00,\"type\":\"Priority\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833360,\"sourceTemplateSeatId\":50,\"title\":\"3\",\"floorNumber\":1,\"posX\":825.00,\"posY\":275.00,\"type\":\"Priority\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false}],\"availableSeatCounts\":{\"Standard\":37,\"Wheelchair\":0,\"POD\":0,\"Priority\":16},\"totalAvailableSeatCount\":53,\"segmentAvailability\":[{\"boardingStopId\":13,\"boardingStopName\":\"Abu Dhabi, Central Bus Station 1\",\"alightingStopId\":14,\"alightingStopName\":\"Abu Dhabi, Samha 2\",\"reservedPercentage\":3.6},{\"boardingStopId\":14,\"boardingStopName\":\"Abu Dhabi, Samha 2\",\"alightingStopId\":15,\"alightingStopName\":\"Dubai, Ibn Battuta Bus Station 8\",\"reservedPercentage\":3.6}],\"requireSeat\":true}}"
+  },
+  {
+    "t": 35.67,
+    "method": "POST",
+    "url": "https://bus-api.rta.ae/hubs/booking?id=k3PxEQv5W9FJo7K3kzECPA",
+    "status": 200,
+    "type": "fetch",
+    "post_data": "{\"target\":\"JoinScheduledTripAsCustomer\",\"arguments\":[15152],\"invocationId\":\"2\",\"type\":1}\u001e{\"target\":\"JoinScheduledTripAsCustomer\",\"arguments\":[15152],\"invocationId\":\"3\",\"type\":1}\u001e",
+    "req_headers": {
+      "referer": "https://bus.rta.ae/",
+      "accept-language": "en-US",
+      "x-signalr-user-agent": "Microsoft SignalR/10.0 (10.0.0; Unknown OS; Browser; Unknown Runtime Version)",
+      "x-requested-with": "XMLHttpRequest",
+      "content-type": "text/plain;charset=UTF-8"
+    },
+    "body": ""
+  },
+  {
+    "t": 35.8,
+    "method": "GET",
+    "url": "https://bus-api.rta.ae/files/floor-background-images/vehicle-seat-templates/1/floors/1/074fb16ce8b94286be89808e776c55d4.png",
+    "status": 200,
+    "type": "image",
+    "req_headers": {
+      "referer": "https://bus.rta.ae/",
+      "accept-language": "en-US"
+    }
+  },
+  {
+    "t": 35.8,
+    "method": "GET",
+    "url": "https://bus-api.rta.ae/api/v1/b2c/booking/scheduled-trips/15152/seats?BoardingPatternStopId=13&AlightingPatternStopId=15&providerId=1",
+    "status": 200,
+    "type": "fetch",
+    "req_headers": {
+      "referer": "https://bus.rta.ae/",
+      "accept-language": "en",
+      "x-requested-with": "XMLHttpRequest",
+      "accept": "application/json",
+      "content-type": "application/json, application/json",
+      "x-fingerprint": "18b6d018-1b45-4808-bdc0-7ed6c85ae505"
+    },
+    "body": "{\"data\":{\"floors\":[{\"floorNumber\":1,\"width\":1039.00,\"height\":371.00,\"numberOfSeats\":55,\"seatedCapacity\":55,\"standingCapacity\":0,\"totalCapacity\":55,\"backgroundImageUrl\":\"/files/floor-background-images/vehicle-seat-templates/1/floors/1/074fb16ce8b94286be89808e776c55d4.png\"}],\"seats\":[{\"id\":833306,\"sourceTemplateSeatId\":6,\"title\":\"53\",\"floorNumber\":1,\"posX\":55.00,\"posY\":45.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":false,\"isReserved\":true,\"isCheckedIn\":false},{\"id\":833307,\"sourceTemplateSeatId\":7,\"title\":\"49\",\"floorNumber\":1,\"posX\":110.00,\"posY\":45.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":false,\"isReserved\":true,\"isCheckedIn\":false},{\"id\":833308,\"sourceTemplateSeatId\":8,\"title\":\"45\",\"floorNumber\":1,\"posX\":170.00,\"posY\":45.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833309,\"sourceTemplateSeatId\":1,\"title\":\"41\",\"floorNumber\":1,\"posX\":230.00,\"posY\":45.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833310,\"sourceTemplateSeatId\":2,\"title\":\"37\",\"floorNumber\":1,\"posX\":285.00,\"posY\":45.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833311,\"sourceTemplateSeatId\":3,\"title\":\"33\",\"floorNumber\":1,\"posX\":345.00,\"posY\":45.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833312,\"sourceTemplateSeatId\":9,\"title\":\"29\",\"floorNumber\":1,\"posX\":400.00,\"posY\":45.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833313,\"sourceTemplateSeatId\":4,\"title\":\"25\",\"floorNumber\":1,\"posX\":460.00,\"posY\":45.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833314,\"sourceTemplateSeatId\":5,\"title\":\"21\",\"floorNumber\":1,\"posX\":515.00,\"posY\":45.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833315,\"sourceTemplateSeatId\":55,\"title\":\"17\",\"floorNumber\":1,\"posX\":570.00,\"posY\":45.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833316,\"sourceTemplateSeatId\":47,\"title\":\"13\",\"floorNumber\":1,\"posX\":630.00,\"posY\":45.00,\"type\":\"Priority\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833317,\"sourceTemplateSeatId\":48,\"title\":\"9\",\"floorNumber\":1,\"posX\":685.00,\"posY\":45.00,\"type\":\"Priority\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833318,\"sourceTemplateSeatId\":49,\"title\":\"5\",\"floorNumber\":1,\"posX\":745.00,\"posY\":45.00,\"type\":\"Priority\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833319,\"sourceTemplateSeatId\":51,\"title\":\"1\",\"floorNumber\":1,\"posX\":800.00,\"posY\":45.00,\"type\":\"Priority\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833320,\"sourceTemplateSeatId\":34,\"title\":\"54\",\"floorNumber\":1,\"posX\":55.00,\"posY\":100.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833321,\"sourceTemplateSeatId\":25,\"title\":\"50\",\"floorNumber\":1,\"posX\":110.00,\"posY\":100.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833322,\"sourceTemplateSeatId\":20,\"title\":\"46\",\"floorNumber\":1,\"posX\":170.00,\"posY\":100.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833323,\"sourceTemplateSeatId\":11,\"title\":\"42\",\"floorNumber\":1,\"posX\":230.00,\"posY\":100.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833324,\"sourceTemplateSeatId\":12,\"title\":\"38\",\"floorNumber\":1,\"posX\":285.00,\"posY\":100.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833325,\"sourceTemplateSeatId\":13,\"title\":\"34\",\"floorNumber\":1,\"posX\":345.00,\"posY\":100.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833326,\"sourceTemplateSeatId\":14,\"title\":\"30\",\"floorNumber\":1,\"posX\":400.00,\"posY\":100.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833327,\"sourceTemplateSeatId\":15,\"title\":\"26\",\"floorNumber\":1,\"posX\":460.00,\"posY\":100.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833328,\"sourceTemplateSeatId\":10,\"title\":\"22\",\"floorNumber\":1,\"posX\":515.00,\"posY\":100.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833329,\"sourceTemplateSeatId\":45,\"title\":\"18\",\"floorNumber\":1,\"posX\":570.00,\"posY\":100.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833330,\"sourceTemplateSeatId\":46,\"title\":\"14\",\"floorNumber\":1,\"posX\":630.00,\"posY\":100.00,\"type\":\"Priority\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833331,\"sourceTemplateSeatId\":54,\"title\":\"10\",\"floorNumber\":1,\"posX\":685.00,\"posY\":100.00,\"type\":\"Priority\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833332,\"sourceTemplateSeatId\":53,\"title\":\"6\",\"floorNumber\":1,\"posX\":745.00,\"posY\":100.00,\"type\":\"Priority\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833333,\"sourceTemplateSeatId\":52,\"title\":\"2\",\"floorNumber\":1,\"posX\":800.00,\"posY\":100.00,\"type\":\"Priority\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833334,\"sourceTemplateSeatId\":35,\"title\":\"55\",\"floorNumber\":1,\"posX\":55.00,\"posY\":160.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833335,\"sourceTemplateSeatId\":16,\"title\":\"52\",\"floorNumber\":1,\"posX\":55.00,\"posY\":215.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833336,\"sourceTemplateSeatId\":17,\"title\":\"48\",\"floorNumber\":1,\"posX\":110.00,\"posY\":215.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833337,\"sourceTemplateSeatId\":29,\"title\":\"44\",\"floorNumber\":1,\"posX\":170.00,\"posY\":215.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833338,\"sourceTemplateSeatId\":18,\"title\":\"40\",\"floorNumber\":1,\"posX\":230.00,\"posY\":215.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833339,\"sourceTemplateSeatId\":19,\"title\":\"36\",\"floorNumber\":1,\"posX\":285.00,\"posY\":215.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833340,\"sourceTemplateSeatId\":36,\"title\":\"31\",\"floorNumber\":1,\"posX\":440.00,\"posY\":215.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833341,\"sourceTemplateSeatId\":38,\"title\":\"28\",\"floorNumber\":1,\"posX\":495.00,\"posY\":215.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833342,\"sourceTemplateSeatId\":40,\"title\":\"24\",\"floorNumber\":1,\"posX\":550.00,\"posY\":215.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833343,\"sourceTemplateSeatId\":37,\"title\":\"20\",\"floorNumber\":1,\"posX\":605.00,\"posY\":215.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833344,\"sourceTemplateSeatId\":39,\"title\":\"16\",\"floorNumber\":1,\"posX\":660.00,\"posY\":215.00,\"type\":\"Priority\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833345,\"sourceTemplateSeatId\":42,\"title\":\"12\",\"floorNumber\":1,\"posX\":715.00,\"posY\":215.00,\"type\":\"Priority\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833346,\"sourceTemplateSeatId\":44,\"title\":\"8\",\"floorNumber\":1,\"posX\":775.00,\"posY\":215.00,\"type\":\"Priority\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833347,\"sourceTemplateSeatId\":31,\"title\":\"4\",\"floorNumber\":1,\"posX\":825.00,\"posY\":215.00,\"type\":\"Priority\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833348,\"sourceTemplateSeatId\":21,\"title\":\"51\",\"floorNumber\":1,\"posX\":55.00,\"posY\":270.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833349,\"sourceTemplateSeatId\":22,\"title\":\"47\",\"floorNumber\":1,\"posX\":110.00,\"posY\":270.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833350,\"sourceTemplateSeatId\":33,\"title\":\"43\",\"floorNumber\":1,\"posX\":170.00,\"posY\":270.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833351,\"sourceTemplateSeatId\":23,\"title\":\"39\",\"floorNumber\":1,\"posX\":230.00,\"posY\":270.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833352,\"sourceTemplateSeatId\":24,\"title\":\"35\",\"floorNumber\":1,\"posX\":285.00,\"posY\":270.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833353,\"sourceTemplateSeatId\":32,\"title\":\"32\",\"floorNumber\":1,\"posX\":440.00,\"posY\":270.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833354,\"sourceTemplateSeatId\":26,\"title\":\"27\",\"floorNumber\":1,\"posX\":495.00,\"posY\":270.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833355,\"sourceTemplateSeatId\":30,\"title\":\"23\",\"floorNumber\":1,\"posX\":550.00,\"posY\":270.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833356,\"sourceTemplateSeatId\":41,\"title\":\"19\",\"floorNumber\":1,\"posX\":605.00,\"posY\":270.00,\"type\":\"Standard\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833357,\"sourceTemplateSeatId\":28,\"title\":\"15\",\"floorNumber\":1,\"posX\":660.00,\"posY\":270.00,\"type\":\"Priority\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833358,\"sourceTemplateSeatId\":27,\"title\":\"11\",\"floorNumber\":1,\"posX\":715.00,\"posY\":270.00,\"type\":\"Priority\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833359,\"sourceTemplateSeatId\":43,\"title\":\"7\",\"floorNumber\":1,\"posX\":775.00,\"posY\":270.00,\"type\":\"Priority\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false},{\"id\":833360,\"sourceTemplateSeatId\":50,\"title\":\"3\",\"floorNumber\":1,\"posX\":825.00,\"posY\":275.00,\"type\":\"Priority\",\"classTierId\":null,\"classTier\":null,\"isAvailableForBooking\":true,\"isReserved\":false,\"isCheckedIn\":false}],\"availableSeatCounts\":{\"Standard\":37,\"Wheelchair\":0,\"POD\":0,\"Priority\":16},\"totalAvailableSeatCount\":53,\"segmentAvailability\":[{\"boardingStopId\":13,\"boardingStopName\":\"Abu Dhabi, Central Bus Station 1\",\"alightingStopId\":14,\"alightingStopName\":\"Abu Dhabi, Samha 2\",\"reservedPercentage\":3.6},{\"boardingStopId\":14,\"boardingStopName\":\"Abu Dhabi, Samha 2\",\"alightingStopId\":15,\"alightingStopName\":\"Dubai, Ibn Battuta Bus Station 8\",\"reservedPercentage\":3.6}],\"requireSeat\":true}}"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(~/openclaw/.env)",
+      "Read(~/.openclaw/**)",
+      "Read(~/openclawworkspace/**)",
+      "Read(~/.ssh/**)",
+      "Read(~/rta/.env.rta)"
+    ]
+  }
+}

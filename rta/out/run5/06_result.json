@@ -1,0 +1,126 @@
+{
+  "started": "2026-10-26T15:08:42+00:00",
+  "trip": {
+    "trip_id": 15653,
+    "date": "2026-10-28",
+    "departure": "11:30",
+    "arrival": "13:15",
+    "seats_standard": 39,
+    "price_per_ticket": 25.0,
+    "total": 25.0,
+    "currency": "AED",
+    "route": "E101: Abu Dhabi, Central Bus Station 1 → Dubai, Ibn Battuta Bus Station 8",
+    "passengers": 1
+  },
+  "otp_channel": "Phone",
+  "terms_accepted": true,
+  "invoice": {
+    "invoice_id": 34123,
+    "total": 25.0,
+    "payment_methods": [
+      "5: Dubai Pay (DUBAIPAYBT)"
+    ]
+  },
+  "payment_method_cards": [
+    "Dubai Pay"
+  ],
+  "chosen_method": "5: Dubai Pay",
+  "payment_url": "https://epayment.dubai.ae/ePayHub/Authentication/SPServlet?token=<…>",
+  "gateway": {
+    "title": "Welcome to Dubai Pay",
+    "buttons": [
+      "Pay"
+    ],
+    "fields": [
+      "PYMTMETHODCODE",
+      "PYMTMETHODCODE",
+      "PYMTMETHODCODE",
+      "btnPay",
+      "btnCancel"
+    ],
+    "labels": [
+      "Credit Card",
+      "Net Banking",
+      "Google Pay"
+    ],
+    "images": [
+      "Dubai Pay",
+      "Dubai Pay"
+    ],
+    "iframes": [
+      "pay.google.com"
+    ],
+    "url": "https://epayment.dubai.ae/ePayHub/Authentication/SPServlet?token=<…>",
+    "host": "epayment.dubai.ae"
+  },
+  "clean_context": {
+    "title": "Welcome to Dubai Pay",
+    "buttons": [
+      "Pay"
+    ],
+    "fields": [
+      "PYMTMETHODCODE",
+      "PYMTMETHODCODE",
+      "PYMTMETHODCODE",
+      "btnPay",
+      "btnCancel"
+    ],
+    "labels": [
+      "Credit Card",
+      "Net Banking",
+      "Google Pay"
+    ],
+    "images": [
+      "Dubai Pay",
+      "Dubai Pay"
+    ],
+    "iframes": [
+      "pay.google.com"
+    ],
+    "url": "https://epayment.dubai.ae/ePayHub/Authentication/SPServlet?token=<…>",
+    "host": "epayment.dubai.ae",
+    "status": 200,
+    "chain": [
+      "https://epayment.dubai.ae/ePayHub/Authentication/SPServlet?token=<…>"
+    ],
+    "same_as_main": true
+  },
+  "hold": {
+    "trip_id": 15653,
+    "boarding": 13,
+    "alighting": 15,
+    "hub_hold": {
+      "holdId": 48219,
+      "reservedSeatIds": [
+        860861
+      ],
+      "expiresAt": "2026-10-26T15:24:14.8889912",
+      "sessionId": "01a178c2-2f13-7b68-8599-d207d7a888fc"
+    },
+    "hold_id": 48219,
+    "session_id": "01a178c2-2f13-7b68-8599-d207d7a888fc",
+    "expires_at": "2026-10-26T15:24:14.888Z",
+    "seats": [
+      {
+        "id": 860861,
+        "title": "53"
+      }
+    ]
+  },
+  "hosts": {
+    "bus.rta.ae": 23,
+    "bus-api.rta.ae": 29,
+    "c.tile.openstreetmap.org": 3,
+    "a.tile.openstreetmap.org": 3,
+    "b.tile.openstreetmap.org": 2,
+    "flagcdn.com": 1,
+    "epayment.dubai.ae": 24,
+    "pay.google.com": 2,
+    "www.gstatic.com": 5,
+    "play.google.com": 6
+  },
+  "hub_calls": [
+    "JoinScheduledTripAsCustomer",
+    "AutoSelectReservation"
+  ]
+}

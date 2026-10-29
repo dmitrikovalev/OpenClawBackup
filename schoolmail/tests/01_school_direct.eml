@@ -1,0 +1,20 @@
+Return-Path: <k.smith@greenfield.example>
+Authentication-Results: mx.mailhost.example; spf=pass smtp.mailfrom=greenfield.example;
+ dkim=pass header.d=greenfield.example; dmarc=pass header.from=greenfield.example
+From: "Ms. Karen Smith" <K.Smith@greenfield.example>
+To: parent.school@mailhost.example
+Subject: =?UTF-8?Q?Year_3_=E2=80=93_library_books_due_Thursday?=
+Date: Tue, 27 Oct 2026 05:30:00 +0000
+Message-ID: <direct-1@greenfield.example>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+Dear Year 3 parents,
+
+Please return all library books by Thursday, 29 October.‌ ‌‮
+Reading logs are available at https://greenfield.example/reading-log.
+(Late books: see https://greenfield.example/library/rules)
+
+Kind regards,
+Ms. Smith

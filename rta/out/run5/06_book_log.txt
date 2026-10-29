@@ -1,0 +1,22 @@
+{"t": "15:08:42", "event": "trip_found", "trip_id": 15653, "date": "2026-10-28", "departure": "11:30", "arrival": "13:15", "seats_standard": 39, "price_per_ticket": 25.0, "total": 25.0, "currency": "AED", "route": "E101: Abu Dhabi, Central Bus Station 1 → Dubai, Ibn Battuta Bus Station 8", "passengers": 1}
+{"t": "15:09:13", "event": "screenshot", "path": "out/06_01_trip_selected.png"}
+{"t": "15:09:18", "event": "seats_held", "hold_id": 48219, "expires_at": "2026-10-26T15:24:14.888Z", "seats": ["53"], "seat_ids": [860861], "from_hub": true}
+{"t": "15:09:19", "event": "screenshot", "path": "out/06_02_seats_dialog.png"}
+{"t": "15:09:23", "event": "form_filled", "title_ok": true, "first_ok": true, "last_ok": true, "email_ok": true, "code_ok": true, "phone_ok": true}
+{"t": "15:09:24", "event": "screenshot", "path": "out/06_03_guest_form.png"}
+{"t": "15:09:25", "event": "otp_required", "channel": "Phone", "file": "out/otp.txt", "note": "write the code into out/otp.txt"}
+{"t": "15:09:26", "event": "screenshot", "path": "out/06_04_otp_modal.png"}
+{"t": "15:10:02", "event": "otp_received"}
+{"t": "15:10:03", "event": "otp_verified"}
+{"t": "15:10:06", "event": "screenshot", "path": "out/06_05_summary.png"}
+{"t": "15:10:07", "event": "terms_accepted"}
+{"t": "15:10:07", "event": "screenshot", "path": "out/06_06_summary_terms_accepted.png"}
+{"t": "15:10:08", "event": "reservation_confirmed", "invoice_id": 34123, "total": 25.0, "payment_methods": ["5: Dubai Pay (DUBAIPAYBT)"]}
+{"t": "15:10:10", "event": "screenshot", "path": "out/06_07_payment_methods.png"}
+{"t": "15:10:12", "event": "payment_requested", "payment_url": "https://epayment.dubai.ae/ePayHub/Authentication/SPServlet?token=<…>"}
+{"t": "15:10:17", "event": "payment_page", "title": "Welcome to Dubai Pay", "buttons": ["Pay"], "fields": ["PYMTMETHODCODE", "PYMTMETHODCODE", "PYMTMETHODCODE", "btnPay", "btnCancel"], "labels": ["Credit Card", "Net Banking", "Google Pay"], "images": ["Dubai Pay", "Dubai Pay"], "iframes": ["pay.google.com"], "url": "https://epayment.dubai.ae/ePayHub/Authentication/SPServlet?token=<…>", "host": "epayment.dubai.ae"}
+{"t": "15:10:18", "event": "screenshot", "path": "out/06_08_payment_page.png"}
+{"t": "15:10:23", "event": "clean_context", "title": "Welcome to Dubai Pay", "buttons": ["Pay"], "fields": ["PYMTMETHODCODE", "PYMTMETHODCODE", "PYMTMETHODCODE", "btnPay", "btnCancel"], "labels": ["Credit Card", "Net Banking", "Google Pay"], "images": ["Dubai Pay", "Dubai Pay"], "iframes": ["pay.google.com"], "url": "https://epayment.dubai.ae/ePayHub/Authentication/SPServlet?token=<…>", "host": "epayment.dubai.ae", "status": 200, "chain": ["https://epayment.dubai.ae/ePayHub/Authentication/SPServlet?token=<…>"], "same_as_main": true}
+{"t": "15:10:24", "event": "screenshot", "path": "out/06_09_payment_page_clean_context.png"}
+{"t": "15:10:24", "event": "done", "note": "stopped on the external payment page, nothing paid"}
+exit=0

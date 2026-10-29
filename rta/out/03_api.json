@@ -1,0 +1,92 @@
+[
+  {
+    "method": "POST",
+    "url": "https://bus-api.rta.ae/hubs/booking/negotiate?negotiateVersion=1",
+    "status": 200,
+    "body": "{\"negotiateVersion\":1,\"connectionId\":\"lbzIrmZGMvW9Lp1XvbpWmg\",\"connectionToken\":\"cb7MA5u3xxC3k-JYzDc68g\",\"availableTransports\":[{\"transport\":\"ServerSentEvents\",\"transferFormats\":[\"Text\"]},{\"transport\":\"LongPolling\",\"transferFormats\":[\"Text\",\"Binary\"]}]}"
+  },
+  {
+    "method": "GET",
+    "url": "https://bus-api.rta.ae/api/v1/b2c/provider/portal-configuration?providerId=1",
+    "status": 200,
+    "body": "{\"data\":{\"maintenanceMode\":{\"isMaintenanceModeEnabled\":false,\"maintenanceMessage\":\"\\\"\\\"\",\"startDateTimeUtc\":null,\"endDateTimeUtc\":null,\"startDateTimeLocal\":null,\"endDateTimeLocal\":null},\"notificationBanner\":{\"isNotificationBannerEnabled\":false,\"notificationBannerMessage\":\"\\\"\\\"\",\"startDateTimeUtc\":null,\"endDateTimeUtc\":null,\"startDateTimeLocal\":null,\"endDateTimeLocal\":null},\"portalConfig\":{\"API_BASE_URL\":\"\",\"PRODUCT_API_BASE_URL\":\"\",\"SERVER\":\"\",\"API_USE_PROXY\":\"true\",\"SIGNALR_URL\":\"\",\"SIGNALR_USE_PROXY\":\"true\",\"SIGNALR_LOGGING\":\"true\",\"PROVIDER\":\"1\",\"API_TIMEOUT\":\"10000\",\"API_RETRY_ATTEMPTS\":\"0\",\"RTA_PORTAL_BASE_URL\":\"\",\"ENABLE_EMAIL_PHONE_LOGIN\":\"true\",\"ENABLE_EXTRA_LUGGAGE\":\"false\",\"ENABLE_ROUND_TRIP\":\"false\",\"ENABLE_SPECIAL_EVENTS\":\"false\",\"ENABLE_REFUND_REQUEST\":\"true\",\"ENABLE_REFUND_INVOICES\":\"true\",\"ENABLE_REFUND_REQUESTS\":\"true\",\"ENABLE_MANAGE_TICKET_REFUND\":\"true\",\"ROUTE_STOPS_DISPLAY_MODE\":\"collapsed\",\"PAYMENT_RETRY_COOLDOWN_SECONDS\":\"60\",\"OTP_RESEND_SECONDS\":\"60\",\"OTP_LENGTH\":\"4\",\"MAX_PASSENGERS\":\"10\"},\"baseB2CUrl\":\"bus.rta.ae\",\"enableExtraServices\":false}}"
+  },
+  {
+    "method": "GET",
+    "url": "https://bus-api.rta.ae/api/v1/b2c/passengertypes?providerId=1",
+    "status": 200,
+    "body": "{\"data\":{\"items\":[{\"id\":1,\"name\":\"Adult\",\"code\":\"Adult\",\"isActive\":true,\"isArchived\":false,\"configurationCount\":1,\"configurations\":[{\"id\":1,\"providerId\":1,\"providerName\":\"Intercity\",\"mode\":\"General\",\"discountType\":\"WithoutDiscount\",\"discountValue\":0.0000,\"discountDescription\":\"\",\"withSeat\":true,\"requiresPrioritySeat\":false,\"routeId\":null,\"effectiveDateUtc\":\"2026-08-30T06:14:07.82\",\"endDateUtc\":null,\"isActive\":true,\"isArchived\":false,\"archivedAt\":null}]},{\"id\":3,\"name\":\"Child Under 5 Years Old\",\"code\":\"ChildUnder5\",\"isActive\":true,\"isArchived\":false,\"configurationCount\":1,\"configurations\":[{\"id\":2,\"providerId\":1,\"providerName\":\"Intercity\",\"mode\":\"General\",\"discountType\":\"Percentage\",\"discountValue\":100.0000,\"discountDescription\":\"Free of charge\",\"withSeat\":false,\"requiresPrioritySeat\":false,\"routeId\":null,\"effectiveDateUtc\":\"2026-08-30T06:14:07.82\",\"endDateUtc\":null,\"isActive\":true,\"isArchived\":false,\"archivedAt\":null}]},{\"id\":7,\"name\":\"POD\",\"code\":\"Pod\",\"isActive\":true,\"isArchived\":false,\"configurationCount\":1,\"configurations\":[{\"id\":7,\"providerId\":1,\"providerName\":\"Intercity\",\"mode\":\"General\",\"discountType\":\"Percentage\",\"discountValue\":100.0000,\"discountDescription\":\"Free\",\"withSeat\":true,\"requiresPrioritySeat\":false,\"routeId\":null,\"effectiveDateUtc\":\"2026-09-19T12:41:02.778\",\"endDateUtc\":null,\"isActive\":true,\"isArchived\":false,\"archivedAt\":null}]},{\"id\":5,\"name\":\"Senior Citizen\",\"code\":\"SeniorCitizen\",\"isActive\":true,\"isArchived\":false,\"configurationCount\":1,\"configurations\":[{\"id\":4,\"providerId\":1,\"providerName\":\"Intercity\",\"mode\":\"General\",\"discountType\":\"WithoutDiscount\",\"discountValue\":0.0000,\"discountDescription\":\"\",\"withSeat\":true,\"requiresPrioritySeat\":false,\"routeId\":null,\"effectiveDateUtc\":\"2026-08-30T06:14:07.82\",\"endDateUtc\":null,\"isActive\":true,\"isArchived\":false,\"archivedAt\":null}]}]}}"
+  },
+  {
+    "method": "GET",
+    "url": "https://bus-api.rta.ae/api/v1/b2c/faqs?providerId=1",
+    "status": 200,
+    "body": "{\"data\":[]}"
+  },
+  {
+    "method": "POST",
+    "url": "https://bus-api.rta.ae/hubs/booking?id=cb7MA5u3xxC3k-JYzDc68g",
+    "status": 200,
+    "post_data": "{\"protocol\":\"json\",\"version\":1}\u001e"
+  },
+  {
+    "method": "POST",
+    "url": "https://bus-api.rta.ae/hubs/booking?id=cb7MA5u3xxC3k-JYzDc68g",
+    "status": 200,
+    "post_data": "{\"type\":6}\u001e"
+  },
+  {
+    "method": "POST",
+    "url": "https://bus-api.rta.ae/hubs/booking?id=cb7MA5u3xxC3k-JYzDc68g",
+    "status": 404,
+    "post_data": "{\"type\":7}\u001e"
+  },
+  {
+    "method": "GET",
+    "url": "https://bus-api.rta.ae/api/v1/b2c/booking/locations/by-name?IsBoarding=true&Page=1&PageSize=10&providerId=1",
+    "status": 200,
+    "body": "{\"data\":{\"items\":[{\"id\":1,\"name\":\"Dubai, Al Ghubaiba Bus Station\"},{\"id\":6,\"name\":\"Dubai, Ibn Battuta Bus Station\"},{\"id\":15,\"name\":\"Dubai, Etisalat Bus Station\"},{\"id\":4,\"name\":\"Abu Dhabi, Central Bus Station\"},{\"id\":14,\"name\":\"Al Ain Central Bus Station\"},{\"id\":22,\"name\":\"Fujairah Bus Station\"}],\"page\":1,\"pageSize\":10,\"totalCount\":6,\"totalPages\":1,\"hasPreviousPage\":false,\"hasNextPage\":false,\"count\":6}}"
+  },
+  {
+    "method": "GET",
+    "url": "https://bus-api.rta.ae/api/v1/b2c/booking/locations/by-name?IsAlighting=true&Page=1&PageSize=10&providerId=1",
+    "status": 200,
+    "body": "{\"data\":{\"items\":[{\"id\":4,\"name\":\"Abu Dhabi, Central Bus Station\"},{\"id\":14,\"name\":\"Al Ain Central Bus Station\"},{\"id\":22,\"name\":\"Fujairah Bus Station\"},{\"id\":1,\"name\":\"Dubai, Al Ghubaiba Bus Station\"},{\"id\":6,\"name\":\"Dubai, Ibn Battuta Bus Station\"},{\"id\":15,\"name\":\"Dubai, Etisalat Bus Station\"},{\"id\":5,\"name\":\"Dubai, Al Jafiliya Bus Station\"},{\"id\":2,\"name\":\"Abu Dhabi, Samha\"},{\"id\":3,\"name\":\"Abu Dhabi, Shahama Village\"},{\"id\":21,\"name\":\"Masafi, Hospital\"}],\"page\":1,\"pageSize\":10,\"totalCount\":21,\"totalPages\":3,\"hasPreviousPage\":false,\"hasNextPage\":true,\"count\":10}}"
+  },
+  {
+    "method": "GET",
+    "url": "https://bus-api.rta.ae/api/v1/b2c/booking/locations/by-name?NameFilter=Abu+Dhabi&IsBoarding=true&Page=1&PageSize=10&providerId=1",
+    "status": 200,
+    "body": "{\"data\":{\"items\":[{\"id\":4,\"name\":\"Abu Dhabi, Central Bus Station\"}],\"page\":1,\"pageSize\":10,\"totalCount\":1,\"totalPages\":1,\"hasPreviousPage\":false,\"hasNextPage\":false,\"count\":1}}"
+  },
+  {
+    "method": "GET",
+    "url": "https://bus-api.rta.ae/api/v1/b2c/booking/locations/by-name?IsAlighting=true&Page=1&PageSize=20&BoardingLocationId=4&providerId=1",
+    "status": 200,
+    "body": "{\"data\":{\"items\":[{\"id\":1,\"name\":\"Dubai, Al Ghubaiba Bus Station\"},{\"id\":6,\"name\":\"Dubai, Ibn Battuta Bus Station\"},{\"id\":5,\"name\":\"Dubai, Al Jafiliya Bus Station\"}],\"page\":1,\"pageSize\":20,\"totalCount\":3,\"totalPages\":1,\"hasPreviousPage\":false,\"hasNextPage\":false,\"count\":3}}"
+  },
+  {
+    "method": "GET",
+    "url": "https://bus-api.rta.ae/api/v1/b2c/booking/locations/by-name?NameFilter=Ibn+Battuta&IsAlighting=true&Page=1&PageSize=10&BoardingLocationId=4&providerId=1",
+    "status": 200,
+    "body": "{\"data\":{\"items\":[{\"id\":6,\"name\":\"Dubai, Ibn Battuta Bus Station\"}],\"page\":1,\"pageSize\":10,\"totalCount\":1,\"totalPages\":1,\"hasPreviousPage\":false,\"hasNextPage\":false,\"count\":1}}"
+  },
+  {
+    "method": "GET",
+    "url": "https://bus-api.rta.ae/api/v1/b2c/booking/locations/by-name?IsBoarding=true&Page=1&PageSize=20&AlightingLocationId=6&providerId=1",
+    "status": 200,
+    "body": "{\"data\":{\"items\":[{\"id\":4,\"name\":\"Abu Dhabi, Central Bus Station\"}],\"page\":1,\"pageSize\":20,\"totalCount\":1,\"totalPages\":1,\"hasPreviousPage\":false,\"hasNextPage\":false,\"count\":1}}"
+  },
+  {
+    "method": "GET",
+    "url": "https://bus-api.rta.ae/api/v1/b2c/booking/route-patterns/by-locations?DepartureLocationId=4&DestinationLocationId=6&providerId=1",
+    "status": 200,
+    "body": "{\"data\":{\"items\":[{\"costAmount\":25.00,\"costCurrency\":\"AED\",\"id\":4,\"routeId\":2,\"code\":\"E101-In\",\"direction\":\"In\",\"isActive\":true,\"stops\":[{\"id\":13,\"routePatternId\":4,\"sequenceNumber\":1,\"isBoardingAllowed\":true,\"isAlightingAllowed\":false,\"isActive\":true,\"stationId\":6,\"locationId\":4,\"station\":{\"id\":6,\"externalId\":\"141501\",\"name\":\"Abu Dhabi, Central Bus Station 1\",\"providerId\":1,\"providerCode\":\"INTERCITY\",\"latitude\":24.471254,\"longitude\":54.375751,\"isActive\":true,\"locationId\":4}},{\"id\":15,\"routePatternId\":4,\"sequenceNumber\":3,\"isBoardingAllowed\":false,\"isAlightingAllowed\":true,\"isActive\":true,\"stationId\":8,\"locationId\":6,\"station\":{\"id\":8,\"externalId\":\"903508\",\"name\":\"Dubai, Ibn Battuta Bus Station 8\",\"providerId\":1,\"providerCode\":\"INTERCITY\",\"latitude\":25.046117,\"longitude\":55.117972,\"isActive\":true,\"locationId\":6}}],\"title\":\"E101: Abu Dhabi, Central Bus Station 1 → Dubai, Ibn Battuta Bus Station 8\"}]}}"
+  },
+  {
+    "method": "GET",
+    "url": "https://bus-api.rta.ae/api/v1/b2c/booking/route-patterns/4/scheduled-trips?Page=1&PageSize=10&DateUtc=2026-10-26&TimeUtc=13%3A30%3A00&RequiredStandardCount=1&RequiredWheelchairCount=0&RequiredPODCount=0&BoardingPatternStopId=13&AlightingPatternStopId=15&providerId=1",
+    "status": 200,
+    "body": "{\"data\":{\"items\":[{\"id\":15151,\"date\":\"2026-10-26\",\"timeZone\":\"Asia/Dubai\",\"plannedStartTime\":\"18:10:00\",\"plannedEndTime\":\"19:55:00\",\"status\":\"Planned\",\"availableSeatCounts\":{\"Standard\":39,\"Wheelchair\":0,\"POD\":0,\"Priority\":15},\"totalAvailableSeatCount\":54,\"isSpecial\":false,\"specialEventName\":\"\",\"requireSeat\":true},{\"id\":15152,\"date\":\"2026-10-26\",\"timeZone\":\"Asia/Dubai\",\"plannedStartTime\":\"18:30:00\",\"plannedEndTime\":\"20:15:00\",\"status\":\"Planned\",\"availableSeatCounts\":{\"Standard\":39,\"Wheelchair\":0,\"POD\":0,\"Priority\":16},\"totalAvailableSeatCount\":55,\"isSpecial\":false,\"specialEventName\":\"\",\"requireSeat\":true},{\"id\":15153,\"date\":\"2026-10-26\",\"timeZone\":\"Asia/Dubai\",\"plannedStartTime\":\"18:50:00\",\"plannedEndTime\":\"20:35:00\",\"status\":\"Planned\",\"availableSeatCounts\":{\"Standard\":39,\"Wheelchair\":0,\"POD\":0,\"Priority\":16},\"totalAvailableSeatCount\":55,\"isSpecial\":false,\"specialEventName\":\"\",\"requireSeat\":true},{\"id\":15154,\"date\":\"2026-10-26\",\"timeZone\":\"Asia/Dubai\",\"plannedStartTime\":\"19:10:00\",\"plannedEndTime\":\"20:55:00\",\"status\":\"Planned\",\"availableSeatCounts\":{\"Standard\":39,\"Wheelchair\":0,\"POD\":0,\"Priority\":16},\"totalAvailableSeatCount\":55,\"isSpecial\":false,\"specialEventName\":\"\",\"requireSeat\":true},{\"id\":15155,\"date\":\"2026-10-26\",\"timeZone\":\"Asia/Dubai\",\"plannedStartTime\":\"19:30:00\",\"plannedEndTime\":\"21:15:00\",\"status\":\"Planned\",\"availableSeatCounts\":{\"Standard\":38,\"Wheelchair\":0,\"POD\":0,\"Priority\":16},\"totalAvailableSeatCount\":54,\"isSpecial\":false,\"specialEventName\":\"\",\"requireSeat\":true},{\"id\":15156,\"date\":\"2026-10-26\",\"timeZone\":\"Asia/Dubai\",\"plannedStartTime\":\"19:50:00\",\"plannedEndTime\":\"21:35:00\",\"status\":\"Planned\",\"availableSeatCounts\":{\"Standard\":39,\"Wheelchair\":0,\"POD\":0,\"Priority\":16},\"totalAvailableSeatCount\":55,\"isSpecial\":false,\"specialEventName\":\"\",\"requireSeat\":true},{\"id\":15157,\"date\":\"2026-10-26\",\"timeZone\":\"Asia/Dubai\",\"plannedStartTime\":\"20:10:00\",\"plannedEndTime\":\"21:55:00\",\"status\":\"Planned\",\"availableSeatCounts\":{\"Standard\":39,\"Wheelchair\":0,\"POD\":0,\"Priority\":16},\"totalAvailableSeatCount\":55,\"isSpecial\":false,\"specialEventName\":\"\",\"requireSeat\":true},{\"id\":15158,\"date\":\"2026-10-26\",\"timeZone\":\"Asia/Dubai\",\"plannedStartTime\":\"20:30:00\",\"plannedEndTime\":\"22:15:00\",\"status\":\"Planned\",\"availableSeatCounts\":{\"Standard\":39,\"Wheelchair\":0,\"POD\":0,\"Priority\":16},\"totalAvailableSeatCount\":55,\"isSpecial\":false,\"specialEventName\":\"\",\"requireSeat\":true},{\"id\":15159,\"date\":\"2026-10-26\",\"timeZone\":\"Asia/Dubai\",\"plannedStartTime\":\"20:50:00\",\"plannedEndTime\":\"22:35:00\",\"status\":\"Planned\",\"availableSeatCounts\":{\"Standard\":39,\"Wheelchair\":0,\"POD\":0,\"Priority\":16},\"totalAvailableSeatCount\":55,\"isSpecial\":false,\"specialEventName\":\"\",\"requireSeat\":true},{\"id\":15160,\"date\":\"2026-10-26\",\"timeZone\":\"Asia/Dubai\",\"plannedStartTime\":\"21:10:00\",\"plannedEndTime\":\"22:55:00\",\"status\":\"Planned\",\"availableSeatCounts\":{\"Standard\":39,\"Wheelchair\":0,\"POD\":0,\"Priority\":16},\"totalAvailableSeatCount\":55,\"isSpecial\":false,\"specialEventName\":\"\",\"requireSeat\":true}],\"page\":1,\"pageSize\":10,\"totalCount\":56,\"totalPages\":6,\"hasPreviousPage\":false,\"hasNextPage\":true,\"count\":10}}"
+  }
+]

@@ -1,0 +1,10 @@
+Authentication-Results: mx.mailhost.example; dkim=pass header.d=shop.example;
+ spf=pass; dmarc=pass header.from=shop.example
+From: "office@greenfield.example" <deals@shop.example>
+To: parent.school@mailhost.example
+Subject: School uniform -50% today only!
+Date: Mon, 26 Oct 2026 08:00:00 +0000
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Huge discounts on school uniform: https://shop.example/sale

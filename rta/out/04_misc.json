@@ -1,0 +1,14 @@
+{
+  "other_hosts": {
+    "bus.rta.ae": 23,
+    "c.tile.openstreetmap.org": 5,
+    "a.tile.openstreetmap.org": 4,
+    "b.tile.openstreetmap.org": 2
+  },
+  "navigations": [
+    {
+      "t": 0.9,
+      "url": "https://bus.rta.ae/"
+    }
+  ]
+}

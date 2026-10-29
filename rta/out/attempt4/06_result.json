@@ -1,0 +1,53 @@
+{
+  "started": "2026-10-26T14:54:33+00:00",
+  "trip": {
+    "trip_id": 15644,
+    "date": "2026-10-28",
+    "departure": "08:30",
+    "arrival": "10:15",
+    "seats_standard": 38,
+    "price_per_ticket": 25.0,
+    "total": 25.0,
+    "currency": "AED",
+    "route": "E101: Abu Dhabi, Central Bus Station 1 → Dubai, Ibn Battuta Bus Station 8",
+    "passengers": 1
+  },
+  "otp_channel": "Phone",
+  "error": "Abort: OTP rejected twice",
+  "released": true,
+  "hold": {
+    "trip_id": 15644,
+    "boarding": 13,
+    "alighting": 15,
+    "hub_hold": {
+      "holdId": 48211,
+      "reservedSeatIds": [
+        860367
+      ],
+      "expiresAt": "2026-10-26T15:10:06.5644209",
+      "sessionId": "01a178b5-3d5c-731d-8a51-19db2cc5c5a3"
+    },
+    "hold_id": 48211,
+    "session_id": "01a178b5-3d5c-731d-8a51-19db2cc5c5a3",
+    "expires_at": "2026-10-26T15:10:06.564Z",
+    "seats": [
+      {
+        "id": 860367,
+        "title": "49"
+      }
+    ]
+  },
+  "hosts": {
+    "bus.rta.ae": 23,
+    "bus-api.rta.ae": 48,
+    "c.tile.openstreetmap.org": 4,
+    "a.tile.openstreetmap.org": 3,
+    "b.tile.openstreetmap.org": 2,
+    "flagcdn.com": 1
+  },
+  "hub_calls": [
+    "JoinScheduledTripAsCustomer",
+    "AutoSelectReservation",
+    "ReleaseReservation"
+  ]
+}

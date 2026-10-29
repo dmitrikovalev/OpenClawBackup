@@ -1,0 +1,9 @@
+{"t": "14:33:54", "event": "trip_found", "trip_id": 15644, "date": "2026-10-28", "departure": "08:30", "arrival": "10:15", "seats_standard": 39, "price_per_ticket": 25.0, "total": 25.0, "currency": "AED", "route": "E101: Abu Dhabi, Central Bus Station 1 → Dubai, Ibn Battuta Bus Station 8", "passengers": 1}
+{"t": "14:34:24", "event": "screenshot", "path": "out/06_01_trip_selected.png"}
+{"t": "14:34:29", "event": "seats_held", "hold_id": 48180, "expires_at": "2026-10-26T14:49:25.953Z", "seats": ["53"], "seat_ids": [860366], "from_hub": true}
+{"t": "14:34:30", "event": "screenshot", "path": "out/06_02_seats_dialog.png"}
+{"t": "14:34:31", "event": "error", "error": "Abort: title options not recognised: []"}
+{"t": "14:34:32", "event": "screenshot", "path": "out/06_03_error.png"}
+{"t": "14:34:51", "event": "seats_released", "seats_still_reserved": []}
+{"t": "14:34:51", "event": "aborted", "reason": "title options not recognised: []"}
+exit=2

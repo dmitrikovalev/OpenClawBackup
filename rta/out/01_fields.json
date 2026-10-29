@@ -1,0 +1,90 @@
+{
+  "title": "B2C Ticketing",
+  "url": "https://bus.rta.ae/",
+  "selects": [],
+  "inputs": [
+    {
+      "id": "subheaderSearch",
+      "name": "subheaderSearch",
+      "type": "text",
+      "placeholder": "Search.."
+    },
+    {
+      "id": "nlFullname",
+      "name": "nlFullname",
+      "type": "text",
+      "placeholder": "e.g.: Mohammed Abdulla"
+    },
+    {
+      "id": "nlEmailAddress",
+      "name": "nlEmailAddress",
+      "type": "text",
+      "placeholder": "e.g.: yourname@domain.com"
+    },
+    {
+      "id": "nlMobileNumber",
+      "name": "nlMobileNumber",
+      "type": "text",
+      "placeholder": "e.g.: +9715XXXXXXXX"
+    }
+  ],
+  "buttons": [
+    {
+      "id": "",
+      "text": "العربية"
+    },
+    {
+      "id": "",
+      "text": "Login"
+    },
+    {
+      "id": "",
+      "text": "العربية"
+    },
+    {
+      "id": "",
+      "text": "العربية"
+    },
+    {
+      "id": "",
+      "text": "Login"
+    },
+    {
+      "id": "",
+      "text": "Start your booking as a guest"
+    },
+    {
+      "id": "",
+      "text": "Manage my booking"
+    },
+    {
+      "id": "",
+      "text": "Login with your account"
+    },
+    {
+      "id": "",
+      "text": "Subscribe"
+    },
+    {
+      "id": "",
+      "text": "Discover More"
+    },
+    {
+      "id": "",
+      "text": "×"
+    },
+    {
+      "id": "",
+      "text": "Back"
+    },
+    {
+      "id": "",
+      "text": "Done"
+    },
+    {
+      "id": "",
+      "text": "End tour"
+    }
+  ],
+  "iframes": []
+}

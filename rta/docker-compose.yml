@@ -1,0 +1,23 @@
+services:
+  rta:
+    build: .
+    image: rta-bot:latest
+    hostname: rta
+    command: ["uvicorn", "server:app", "--host", "0.0.0.0", "--port", "8000"]
+    env_file: .env.rta
+    restart: unless-stopped
+    networks:
+      - ai
+    expose:
+      - "8000"
+    volumes:
+      - ./out/service:/work/out   # per-booking masked screenshots and redacted API logs
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=5)"]
+      interval: 60s
+      timeout: 10s
+      retries: 3
+
+networks:
+  ai:
+    external: true

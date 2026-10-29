@@ -1,0 +1,50 @@
+{"t": "14:37:57", "event": "trip_found", "trip_id": 15644, "date": "2026-10-28", "departure": "08:30", "arrival": "10:15", "seats_standard": 39, "price_per_ticket": 25.0, "total": 25.0, "currency": "AED", "route": "E101: Abu Dhabi, Central Bus Station 1 → Dubai, Ibn Battuta Bus Station 8", "passengers": 1}
+{"t": "14:38:28", "event": "screenshot", "path": "out/06_01_trip_selected.png"}
+{"t": "14:38:32", "event": "seats_held", "hold_id": 48185, "expires_at": "2026-10-26T14:53:29.367Z", "seats": ["53"], "seat_ids": [860366], "from_hub": true}
+{"t": "14:38:33", "event": "screenshot", "path": "out/06_02_seats_dialog.png"}
+{"t": "14:38:37", "event": "form_filled", "title_ok": true, "first_ok": true, "last_ok": true, "email_ok": true, "code_ok": true, "phone_ok": true}
+{"t": "14:38:37", "event": "screenshot", "path": "out/06_03_guest_form.png"}
+{"t": "14:38:38", "event": "otp_required", "channel": "Phone", "file": "out/otp.txt", "note": "write the code into out/otp.txt"}
+{"t": "14:38:38", "event": "screenshot", "path": "out/06_04_otp_modal.png"}
+{"t": "14:39:56", "event": "otp_received"}
+{"t": "14:39:58", "event": "otp_verified"}
+{"t": "14:40:00", "event": "screenshot", "path": "out/06_05_summary.png"}
+{"t": "14:40:01", "event": "terms_accepted"}
+{"t": "14:40:01", "event": "screenshot", "path": "out/06_06_summary_terms_accepted.png"}
+{"t": "14:40:02", "event": "reservation_confirmed", "invoice_id": 34103, "total": 25.0, "payment_methods": [{"id": 5, "code": "***", "name": "***"}]}
+{"t": "14:40:03", "event": "screenshot", "path": "out/06_07_payment_methods.png"}
+{"t": "14:40:05", "event": "error", "error": "Error: Response.text: Protocol error (Network.getResponseBody): No resource with given identifier found\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation."}
+{"t": "14:40:05", "event": "screenshot", "path": "out/06_08_error.png"}
+{"t": "14:40:05", "event": "warning", "note": "reservation already confirmed, releasing seats anyway"}
+{"t": "14:40:08", "event": "release_hub_failed", "error": "Page.evaluate: TypeError: Failed to fetch\n    at eval (eval at evaluate (:370:30), <anonymous>:1:13)\n    at UtilityScript.evaluate (<anonymous>:377:18)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"}
+{"t": "14:40:11", "event": "seats_still_reserved", "seats_still_reserved": ["53"]}
+Traceback (most recent call last):
+  File "/work/book.py", line 828, in <module>
+    main()
+  File "/work/book.py", line 821, in main
+    Run(a).run()
+  File "/work/book.py", line 785, in run
+    self.pay_now(page, data)
+  File "/work/book.py", line 692, in pay_now
+    raise Abort(f"request-payment -> {r.status}: {RED(r.text()[:300])}")
+                                                      ^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 22382, in text
+    return mapping.from_maybe_impl(self._sync(self._impl_obj.text()))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 111, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/playwright/_impl/_network.py", line 929, in text
+    content = await self.body()
+              ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/playwright/_impl/_network.py", line 922, in body
+    binary = await self._channel.send(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 78, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 636, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Response.text: Protocol error (Network.getResponseBody): No resource with given identifier found
+Response body is not available for a response that was navigated away from. Read response.body() before triggering any navigation.
+exit=1

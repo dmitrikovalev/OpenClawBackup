@@ -1,0 +1,89 @@
+{
+  "url": "https://bus.rta.ae/",
+  "selects": [],
+  "inputs": [
+    {
+      "id": "subheaderSearch",
+      "name": "subheaderSearch",
+      "type": "text",
+      "placeholder": "Search..",
+      "value": ""
+    },
+    {
+      "id": "_r_2_",
+      "name": "",
+      "type": "search",
+      "placeholder": "",
+      "value": ""
+    },
+    {
+      "id": "_r_4_",
+      "name": "",
+      "type": "search",
+      "placeholder": "",
+      "value": ""
+    },
+    {
+      "id": "nlFullname",
+      "name": "nlFullname",
+      "type": "text",
+      "placeholder": "e.g.: Mohammed Abdulla",
+      "value": ""
+    },
+    {
+      "id": "nlEmailAddress",
+      "name": "nlEmailAddress",
+      "type": "text",
+      "placeholder": "e.g.: yourname@domain.com",
+      "value": ""
+    },
+    {
+      "id": "nlMobileNumber",
+      "name": "nlMobileNumber",
+      "type": "text",
+      "placeholder": "e.g.: +9715XXXXXXXX",
+      "value": ""
+    }
+  ],
+  "comboboxes": [
+    {
+      "tag": "INPUT",
+      "id": "_r_2_",
+      "cls": "ant-select-input",
+      "text": ""
+    },
+    {
+      "tag": "INPUT",
+      "id": "_r_4_",
+      "cls": "ant-select-input",
+      "text": ""
+    }
+  ],
+  "labels": [
+    "Full name",
+    "Email address",
+    "Mobile number"
+  ],
+  "buttons": [
+    "العربية",
+    "Login",
+    "01\nStep 1 of 3\nSelect Bus Station, Route & Schedule",
+    "One-way Trip",
+    "Multi-Trip",
+    "Favourite",
+    "Select Date & Time\n26 Oct · 17:22",
+    "Passengers\n1 passenger",
+    "Search Trips",
+    "Next Available Trip",
+    "02\nStep 2 of 3\nSelect Seats",
+    "03\nStep 3 of 3\nPayment",
+    "Chat with Mahboob",
+    "Chat with Mahboub\n\nChat and apply for services with Mahboub.",
+    "Community Engagement Platform\n\nDiscover our projects, take part in decisions, and more.",
+    "Feedback & Ideas\n\nLet us know your ideas, complaints or questions.",
+    "Email us\n\nSend your questions or ideas by email.",
+    "Subscribe",
+    "Discover More"
+  ],
+  "text": "Home\nDriver and Car Owner\nPublic Transport\nBusiness and Corporate\nPeople Of Determination\nالعربية\nLogin\nBook Intercity Bus Ticket\n3 Simple Steps\nRoute & Schedule → Seat Selection → Payment\n01\nStep 1 of 3\nSelect Bus Station, Route & Schedule\nOne-way Trip\nMulti-Trip\nFavourite\nFrom\nDeparture Station\nTo\nArrival Station\nSelect Date & Time\n26 Oct · 17:22\nPassengers\n1 passenger\nSearch Trips\nNext Available Trip\n02\nStep 2 of 3\nSelect Seats\n03\nStep 3 of 3\nPayment\nCan we help?\nCall us on 800 90 90\nChat with Mahboob\nSummary\nOne-way Trip\n\nSelect Departure stop\n\nSelect Arrival stop\n\n26/10/2026\nTotal Amount :\n\n0.00\n\nEngage with Us\n\nWe are here for you. Do not hesitate to communicate with us via the following channels:\n\nChat with Mahboub\n\nChat and apply for services with Mahboub.\n\nCommunity Engagement Platform\n\nDiscover our projects, take part in decisions, and more.\n\nFeedback & Ideas\n\nLet us know your ideas, complaints or questions.\n\nEmail us\n\nSend your questions or ideas by email.\n\nFrequently Asked Questions\nView all FAQs\n\nNo FAQs are available at the moment.\n\nSubscribe to our newsletter\nFull name\nEmail address\nMobile number\nSubscribe\nEngage with Us\n\nWe are here for you. Do not hesitate to communicate with us via the following channels:\n\nChat with Mahboub\n\nChat and apply for services with Mahboub.\n\nCommunity Engagement Platform\n\nDiscover our projects, take part in decisions, and more.\n\nFeedback & Ideas\n\nLet us know your ideas, complaints or questions.\n\nEmail us\n\nSend your questions or ideas by email.\n\nDiscover More\n\n\nCopyright © 2026 Roads and Transport Authority, all rights reserved. This site is maintained by the Roads and Transport Authority.\n\nBest viewed in IE10+, Firefox, Safari and Chrome. Last updated: April 2026\n\nServices\n\nOur locations\nNewsroom\nContact Us"
+}

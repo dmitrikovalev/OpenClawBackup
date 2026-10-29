@@ -1,0 +1,21 @@
+https://epayment.dubai.ae/ePayHub/Authentication/SPServlet?token=<…>
+
+  
+Roads and Transport Authority3#DU-34123151032803 Details
+Service	Bus Intercity Ticketing
+SP Transaction No	DU-34123151032803
+Amount	25.00 AED
+Payment Method
+ Credit Card
+ Net Banking
+ Google Pay
+Contact Info
+Email	***
+Mobile	971***
+Add Another Contact
+Total Amount: 25.00 AED
+
+By tapping on "Pay" you are agreeing with our Terms & Conditions
+
+For more inquiries please call 600 560 000	
+Copyright © 2026. All rights reserved.

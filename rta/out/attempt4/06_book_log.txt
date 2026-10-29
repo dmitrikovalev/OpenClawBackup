@@ -1,0 +1,17 @@
+{"t": "14:54:34", "event": "trip_found", "trip_id": 15644, "date": "2026-10-28", "departure": "08:30", "arrival": "10:15", "seats_standard": 38, "price_per_ticket": 25.0, "total": 25.0, "currency": "AED", "route": "E101: Abu Dhabi, Central Bus Station 1 → Dubai, Ibn Battuta Bus Station 8", "passengers": 1}
+{"t": "14:55:05", "event": "screenshot", "path": "out/06_01_trip_selected.png"}
+{"t": "14:55:10", "event": "seats_held", "hold_id": 48211, "expires_at": "2026-10-26T15:10:06.564Z", "seats": ["49"], "seat_ids": [860367], "from_hub": true}
+{"t": "14:55:12", "event": "screenshot", "path": "out/06_02_seats_dialog.png"}
+{"t": "14:55:16", "event": "form_filled", "title_ok": true, "first_ok": true, "last_ok": true, "email_ok": true, "code_ok": true, "phone_ok": true}
+{"t": "14:55:17", "event": "screenshot", "path": "out/06_03_guest_form.png"}
+{"t": "14:55:17", "event": "otp_required", "channel": "Phone", "file": "out/otp.txt", "note": "write the code into out/otp.txt"}
+{"t": "14:55:18", "event": "screenshot", "path": "out/06_04_otp_modal.png"}
+{"t": "14:55:50", "event": "otp_received"}
+{"t": "14:55:52", "event": "otp_rejected", "status": 500, "body": "{\"type\":\"https://httpwg.org/specs/rfc9110.html#status.500\",\"title\":\"RTA.VERIFY.OTP.SERVICE.ERROR\",\"status\":500,\"detail\":\"Reference ID in the request is not the latest reference ID generated for the user.\"}", "attempt": 1, "note": "write the code into out/otp.txt again"}
+{"t": "15:04:56", "event": "otp_received"}
+{"t": "15:04:57", "event": "otp_rejected", "status": 500, "body": "{\"type\":\"https://httpwg.org/specs/rfc9110.html#status.500\",\"title\":\"RTA.VERIFY.OTP.SERVICE.ERROR\",\"status\":500,\"detail\":\"Reference ID in the request is not the latest reference ID generated for the user.\"}", "attempt": 2, "note": ""}
+{"t": "15:04:57", "event": "error", "error": "Abort: OTP rejected twice"}
+{"t": "15:04:58", "event": "screenshot", "path": "out/06_05_error.png"}
+{"t": "15:05:21", "event": "seats_released", "seats_still_reserved": []}
+{"t": "15:05:22", "event": "aborted", "reason": "OTP rejected twice"}
+exit=2

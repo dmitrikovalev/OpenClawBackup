@@ -1,0 +1,68 @@
+[
+  {
+    "t": 1793022687817,
+    "event": "open",
+    "url": "https://bus-api.rta.ae/hubs/booking?id=LXvHuH_GejhKtiobQZXMhA",
+    "src": "sse"
+  },
+  {
+    "t": 1793022688342,
+    "dir": "recv",
+    "data": "{}\u001e",
+    "src": "sse"
+  },
+  {
+    "t": 1793022688343,
+    "dir": "recv",
+    "data": "{\"type\":1,\"target\":\"ReservationSessionEstablished\",\"arguments\":[\"01a1787a-fc4d-7538-976c-78ef4b3ab796\"]}\u001e",
+    "src": "sse"
+  },
+  {
+    "t": 1793022708411,
+    "event": "open",
+    "url": "https://bus-api.rta.ae/hubs/booking?id=k3PxEQv5W9FJo7K3kzECPA",
+    "src": "sse"
+  },
+  {
+    "t": 1793022708682,
+    "dir": "recv",
+    "data": "{}\u001e",
+    "src": "sse"
+  },
+  {
+    "t": 1793022708686,
+    "dir": "recv",
+    "data": "{\"type\":1,\"target\":\"ReservationSessionEstablished\",\"arguments\":[\"01a1787b-4bce-7624-ae2a-2bb28b02071e\"]}\u001e",
+    "src": "sse"
+  },
+  {
+    "t": 1793022709002,
+    "dir": "recv",
+    "data": "{\"type\":3,\"invocationId\":\"0\",\"result\":null}\u001e",
+    "src": "sse"
+  },
+  {
+    "t": 1793022709490,
+    "dir": "recv",
+    "data": "{\"type\":1,\"target\":\"SeatReservationUpdated\",\"arguments\":[{\"data\":{\"seatIds\":[833307],\"isReserved\":true,\"fromPatternStopSequenceNumber\":1,\"toPatternStopSequenceNumber\":3}}]}\u001e",
+    "src": "sse"
+  },
+  {
+    "t": 1793022709502,
+    "dir": "recv",
+    "data": "{\"type\":3,\"invocationId\":\"1\",\"result\":{\"isSuccess\":true,\"data\":{\"holdId\":48140,\"reservedSeatIds\":[833307],\"expiresAt\":\"2026-10-26T14:06:49.332409\",\"sessionId\":\"01a1787b-4bce-7624-ae2a-2bb28b02071e\"},\"error\":null}}\u001e",
+    "src": "sse"
+  },
+  {
+    "t": 1793022720746,
+    "dir": "recv",
+    "data": "{\"type\":3,\"invocationId\":\"2\",\"result\":null}\u001e",
+    "src": "sse"
+  },
+  {
+    "t": 1793022720747,
+    "dir": "recv",
+    "data": "{\"type\":3,\"invocationId\":\"3\",\"result\":null}\u001e",
+    "src": "sse"
+  }
+]

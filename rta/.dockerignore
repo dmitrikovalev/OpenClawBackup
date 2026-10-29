@@ -1,0 +1,8 @@
+.env*
+out/
+skill/
+.claude/
+__pycache__/
+*.png
+*.html
+NOTES.md

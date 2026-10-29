@@ -1,0 +1,1514 @@
+[
+  {
+    "method": "GET",
+    "url": "https://bus-api.rta.ae/api/v1/b2c/provider/portal-configuration",
+    "status": 200,
+    "response": {
+      "data": {
+        "maintenanceMode": {
+          "isMaintenanceModeEnabled": false,
+          "maintenanceMessage": "\"\"",
+          "startDateTimeUtc": null,
+          "endDateTimeUtc": null,
+          "startDateTimeLocal": null,
+          "endDateTimeLocal": null
+        },
+        "notificationBanner": {
+          "isNotificationBannerEnabled": false,
+          "notificationBannerMessage": "\"\"",
+          "startDateTimeUtc": null,
+          "endDateTimeUtc": null,
+          "startDateTimeLocal": null,
+          "endDateTimeLocal": null
+        },
+        "portalConfig": {
+          "API_BASE_URL": "",
+          "PRODUCT_API_BASE_URL": "",
+          "SERVER": "",
+          "API_USE_PROXY": "true",
+          "SIGNALR_URL": "",
+          "SIGNALR_USE_PROXY": "true",
+          "SIGNALR_LOGGING": "true",
+          "PROVIDER": "1",
+          "API_TIMEOUT": "10000",
+          "API_RETRY_ATTEMPTS": "0",
+          "RTA_PORTAL_BASE_URL": "",
+          "ENABLE_EMAIL_PHONE_LOGIN": "true",
+          "ENABLE_EXTRA_LUGGAGE": "false",
+          "ENABLE_ROUND_TRIP": "false",
+          "ENABLE_SPECIAL_EVENTS": "false",
+          "ENABLE_REFUND_REQUEST": "true",
+          "ENABLE_REFUND_INVOICES": "true",
+          "ENABLE_REFUND_REQUESTS": "true",
+          "ENABLE_MANAGE_TICKET_REFUND": "true",
+          "ROUTE_STOPS_DISPLAY_MODE": "collapsed",
+          "PAYMENT_RETRY_COOLDOWN_SECONDS": "60",
+          "OTP_RESEND_SECONDS": "60",
+          "OTP_LENGTH": "4",
+          "MAX_PASSENGERS": "10"
+        },
+        "baseB2CUrl": "bus.rta.ae",
+        "enableExtraServices": false
+      }
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://bus-api.rta.ae/api/v1/b2c/faqs",
+    "status": 200,
+    "response": {
+      "data": []
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://bus-api.rta.ae/api/v1/b2c/passengertypes",
+    "status": 200,
+    "response": {
+      "data": {
+        "items": [
+          {
+            "id": 1,
+            "name": "***",
+            "code": "***",
+            "isActive": true,
+            "isArchived": false,
+            "configurationCount": 1,
+            "configurations": [
+              {
+                "id": 1,
+                "providerId": 1,
+                "providerName": "Intercity",
+                "mode": "General",
+                "discountType": "WithoutDiscount",
+                "discountValue": 0.0,
+                "discountDescription": "",
+                "withSeat": true,
+                "requiresPrioritySeat": false,
+                "routeId": null,
+                "effectiveDateUtc": "2026-08-30T06:14:07.82",
+                "endDateUtc": null,
+                "isActive": true,
+                "isArchived": false,
+                "archivedAt": null
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "***",
+            "code": "***",
+            "isActive": true,
+            "isArchived": false,
+            "configurationCount": 1,
+            "configurations": [
+              {
+                "id": 2,
+                "providerId": 1,
+                "providerName": "Intercity",
+                "mode": "General",
+                "discountType": "Percentage",
+                "discountValue": 100.0,
+                "discountDescription": "Free of charge",
+                "withSeat": false,
+                "requiresPrioritySeat": false,
+                "routeId": null,
+                "effectiveDateUtc": "2026-08-30T06:14:07.82",
+                "endDateUtc": null,
+                "isActive": true,
+                "isArchived": false,
+                "archivedAt": null
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "name": "***",
+            "code": "***",
+            "isActive": true,
+            "isArchived": false,
+            "configurationCount": 1,
+            "configurations": [
+              {
+                "id": 7,
+                "providerId": 1,
+                "providerName": "Intercity",
+                "mode": "General",
+                "discountType": "Percentage",
+                "discountValue": 100.0,
+                "discountDescription": "Free",
+                "withSeat": true,
+                "requiresPrioritySeat": false,
+                "routeId": null,
+                "effectiveDateUtc": "2026-09-19T12:41:02.778",
+                "endDateUtc": null,
+                "isActive": true,
+                "isArchived": false,
+                "archivedAt": null
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "name": "***",
+            "code": "***",
+            "isActive": true,
+            "isArchived": false,
+            "configurationCount": 1,
+            "configurations": [
+              {
+                "id": 4,
+                "providerId": 1,
+                "providerName": "Intercity",
+                "mode": "General",
+                "discountType": "WithoutDiscount",
+                "discountValue": 0.0,
+                "discountDescription": "",
+                "withSeat": true,
+                "requiresPrioritySeat": false,
+                "routeId": null,
+                "effectiveDateUtc": "2026-08-30T06:14:07.82",
+                "endDateUtc": null,
+                "isActive": true,
+                "isArchived": false,
+                "archivedAt": null
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://bus-api.rta.ae/api/v1/b2c/booking/locations/by-name",
+    "status": 200,
+    "response": {
+      "data": {
+        "items": [
+          {
+            "id": 1,
+            "name": "***"
+          },
+          {
+            "id": 6,
+            "name": "***"
+          },
+          {
+            "id": 15,
+            "name": "***"
+          },
+          {
+            "id": 4,
+            "name": "***"
+          },
+          {
+            "id": 14,
+            "name": "***"
+          },
+          {
+            "id": 22,
+            "name": "***"
+          }
+        ],
+        "page": 1,
+        "pageSize": 10,
+        "totalCount": 6,
+        "totalPages": 1,
+        "hasPreviousPage": false,
+        "hasNextPage": false,
+        "count": 6
+      }
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://bus-api.rta.ae/api/v1/b2c/booking/locations/by-name",
+    "status": 200,
+    "response": {
+      "data": {
+        "items": [
+          {
+            "id": 4,
+            "name": "***"
+          },
+          {
+            "id": 14,
+            "name": "***"
+          },
+          {
+            "id": 22,
+            "name": "***"
+          },
+          {
+            "id": 1,
+            "name": "***"
+          },
+          {
+            "id": 6,
+            "name": "***"
+          },
+          {
+            "id": 15,
+            "name": "***"
+          },
+          {
+            "id": 5,
+            "name": "***"
+          },
+          {
+            "id": 2,
+            "name": "***"
+          },
+          {
+            "id": 3,
+            "name": "***"
+          },
+          {
+            "id": 21,
+            "name": "***"
+          }
+        ],
+        "page": 1,
+        "pageSize": 10,
+        "totalCount": 21,
+        "totalPages": 3,
+        "hasPreviousPage": false,
+        "hasNextPage": true,
+        "count": 10
+      }
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://bus-api.rta.ae/api/v1/b2c/booking/locations/by-name",
+    "status": 200,
+    "response": {
+      "data": {
+        "items": [
+          {
+            "id": 4,
+            "name": "***"
+          }
+        ],
+        "page": 1,
+        "pageSize": 10,
+        "totalCount": 1,
+        "totalPages": 1,
+        "hasPreviousPage": false,
+        "hasNextPage": false,
+        "count": 1
+      }
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://bus-api.rta.ae/api/v1/b2c/booking/locations/by-name",
+    "status": 200,
+    "response": {
+      "data": {
+        "items": [
+          {
+            "id": 1,
+            "name": "***"
+          },
+          {
+            "id": 6,
+            "name": "***"
+          },
+          {
+            "id": 5,
+            "name": "***"
+          }
+        ],
+        "page": 1,
+        "pageSize": 20,
+        "totalCount": 3,
+        "totalPages": 1,
+        "hasPreviousPage": false,
+        "hasNextPage": false,
+        "count": 3
+      }
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://bus-api.rta.ae/api/v1/b2c/booking/locations/by-name",
+    "status": 200,
+    "response": {
+      "data": {
+        "items": [
+          {
+            "id": 6,
+            "name": "***"
+          }
+        ],
+        "page": 1,
+        "pageSize": 10,
+        "totalCount": 1,
+        "totalPages": 1,
+        "hasPreviousPage": false,
+        "hasNextPage": false,
+        "count": 1
+      }
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://bus-api.rta.ae/api/v1/b2c/booking/locations/by-name",
+    "status": 200,
+    "response": {
+      "data": {
+        "items": [
+          {
+            "id": 4,
+            "name": "***"
+          }
+        ],
+        "page": 1,
+        "pageSize": 20,
+        "totalCount": 1,
+        "totalPages": 1,
+        "hasPreviousPage": false,
+        "hasNextPage": false,
+        "count": 1
+      }
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://bus-api.rta.ae/api/v1/b2c/booking/route-patterns/by-locations",
+    "status": 200,
+    "response": {
+      "data": {
+        "items": [
+          {
+            "costAmount": 25.0,
+            "costCurrency": "AED",
+            "id": 4,
+            "routeId": 2,
+            "code": "***",
+            "direction": "In",
+            "isActive": true,
+            "stops": [
+              {
+                "id": 13,
+                "routePatternId": 4,
+                "sequenceNumber": 1,
+                "isBoardingAllowed": true,
+                "isAlightingAllowed": false,
+                "isActive": true,
+                "stationId": 6,
+                "locationId": 4,
+                "station": {
+                  "id": 6,
+                  "externalId": "***",
+                  "name": "***",
+                  "providerId": 1,
+                  "providerCode": "INTERCITY",
+                  "latitude": 24.471254,
+                  "longitude": 54.375751,
+                  "isActive": true,
+                  "locationId": 4
+                }
+              },
+              {
+                "id": 15,
+                "routePatternId": 4,
+                "sequenceNumber": 3,
+                "isBoardingAllowed": false,
+                "isAlightingAllowed": true,
+                "isActive": true,
+                "stationId": 8,
+                "locationId": 6,
+                "station": {
+                  "id": 8,
+                  "externalId": "***",
+                  "name": "***",
+                  "providerId": 1,
+                  "providerCode": "INTERCITY",
+                  "latitude": 25.046117,
+                  "longitude": 55.117972,
+                  "isActive": true,
+                  "locationId": 6
+                }
+              }
+            ],
+            "title": "E101: Abu Dhabi, Central Bus Station 1 → Dubai, Ibn Battuta Bus Station 8"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://bus-api.rta.ae/api/v1/b2c/booking/route-patterns/4/scheduled-trips",
+    "status": 200,
+    "response": {
+      "data": {
+        "items": [
+          {
+            "id": 15644,
+            "date": "2026-10-28",
+            "timeZone": "Asia/Dubai",
+            "plannedStartTime": "08:30:00",
+            "plannedEndTime": "10:15:00",
+            "status": "Planned",
+            "availableSeatCounts": {
+              "Standard": 38,
+              "Wheelchair": 0,
+              "POD": 0,
+              "Priority": 16
+            },
+            "totalAvailableSeatCount": 54,
+            "isSpecial": false,
+            "specialEventName": "",
+            "requireSeat": true
+          },
+          {
+            "id": 15645,
+            "date": "2026-10-28",
+            "timeZone": "Asia/Dubai",
+            "plannedStartTime": "08:50:00",
+            "plannedEndTime": "10:35:00",
+            "status": "Planned",
+            "availableSeatCounts": {
+              "Standard": 39,
+              "Wheelchair": 0,
+              "POD": 0,
+              "Priority": 16
+            },
+            "totalAvailableSeatCount": 55,
+            "isSpecial": false,
+            "specialEventName": "",
+            "requireSeat": true
+          },
+          {
+            "id": 15646,
+            "date": "2026-10-28",
+            "timeZone": "Asia/Dubai",
+            "plannedStartTime": "09:10:00",
+            "plannedEndTime": "10:55:00",
+            "status": "Planned",
+            "availableSeatCounts": {
+              "Standard": 39,
+              "Wheelchair": 0,
+              "POD": 0,
+              "Priority": 16
+            },
+            "totalAvailableSeatCount": 55,
+            "isSpecial": false,
+            "specialEventName": "",
+            "requireSeat": true
+          },
+          {
+            "id": 15647,
+            "date": "2026-10-28",
+            "timeZone": "Asia/Dubai",
+            "plannedStartTime": "09:30:00",
+            "plannedEndTime": "11:15:00",
+            "status": "Planned",
+            "availableSeatCounts": {
+              "Standard": 39,
+              "Wheelchair": 0,
+              "POD": 0,
+              "Priority": 16
+            },
+            "totalAvailableSeatCount": 55,
+            "isSpecial": false,
+            "specialEventName": "",
+            "requireSeat": true
+          },
+          {
+            "id": 15648,
+            "date": "2026-10-28",
+            "timeZone": "Asia/Dubai",
+            "plannedStartTime": "09:50:00",
+            "plannedEndTime": "11:35:00",
+            "status": "Planned",
+            "availableSeatCounts": {
+              "Standard": 39,
+              "Wheelchair": 0,
+              "POD": 0,
+              "Priority": 16
+            },
+            "totalAvailableSeatCount": 55,
+            "isSpecial": false,
+            "specialEventName": "",
+            "requireSeat": true
+          },
+          {
+            "id": 15649,
+            "date": "2026-10-28",
+            "timeZone": "Asia/Dubai",
+            "plannedStartTime": "10:10:00",
+            "plannedEndTime": "11:55:00",
+            "status": "Planned",
+            "availableSeatCounts": {
+              "Standard": 39,
+              "Wheelchair": 0,
+              "POD": 0,
+              "Priority": 16
+            },
+            "totalAvailableSeatCount": 55,
+            "isSpecial": false,
+            "specialEventName": "",
+            "requireSeat": true
+          },
+          {
+            "id": 15650,
+            "date": "2026-10-28",
+            "timeZone": "Asia/Dubai",
+            "plannedStartTime": "10:30:00",
+            "plannedEndTime": "12:15:00",
+            "status": "Planned",
+            "availableSeatCounts": {
+              "Standard": 39,
+              "Wheelchair": 0,
+              "POD": 0,
+              "Priority": 16
+            },
+            "totalAvailableSeatCount": 55,
+            "isSpecial": false,
+            "specialEventName": "",
+            "requireSeat": true
+          },
+          {
+            "id": 15651,
+            "date": "2026-10-28",
+            "timeZone": "Asia/Dubai",
+            "plannedStartTime": "10:50:00",
+            "plannedEndTime": "12:35:00",
+            "status": "Planned",
+            "availableSeatCounts": {
+              "Standard": 39,
+              "Wheelchair": 0,
+              "POD": 0,
+              "Priority": 16
+            },
+            "totalAvailableSeatCount": 55,
+            "isSpecial": false,
+            "specialEventName": "",
+            "requireSeat": true
+          },
+          {
+            "id": 15652,
+            "date": "2026-10-28",
+            "timeZone": "Asia/Dubai",
+            "plannedStartTime": "11:10:00",
+            "plannedEndTime": "12:55:00",
+            "status": "Planned",
+            "availableSeatCounts": {
+              "Standard": 39,
+              "Wheelchair": 0,
+              "POD": 0,
+              "Priority": 16
+            },
+            "totalAvailableSeatCount": 55,
+            "isSpecial": false,
+            "specialEventName": "",
+            "requireSeat": true
+          },
+          {
+            "id": 15653,
+            "date": "2026-10-28",
+            "timeZone": "Asia/Dubai",
+            "plannedStartTime": "11:30:00",
+            "plannedEndTime": "13:15:00",
+            "status": "Planned",
+            "availableSeatCounts": {
+              "Standard": 39,
+              "Wheelchair": 0,
+              "POD": 0,
+              "Priority": 16
+            },
+            "totalAvailableSeatCount": 55,
+            "isSpecial": false,
+            "specialEventName": "",
+            "requireSeat": true
+          }
+        ],
+        "page": 1,
+        "pageSize": 10,
+        "totalCount": 57,
+        "totalPages": 6,
+        "hasPreviousPage": false,
+        "hasNextPage": true,
+        "count": 10
+      }
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://bus-api.rta.ae/api/v1/b2c/booking/scheduled-trips/15644/seats",
+    "status": 200,
+    "response": {
+      "data": {
+        "floors": [
+          {
+            "floorNumber": 1,
+            "width": 1039.0,
+            "height": 371.0,
+            "numberOfSeats": 55,
+            "seatedCapacity": 55,
+            "standingCapacity": 0,
+            "totalCapacity": 55,
+            "backgroundImageUrl": "/files/floor-background-images/vehicle-seat-templates/1/floors/1/074fb16ce8b94286be89808e776c55d4.png"
+          }
+        ],
+        "seats": [
+          {
+            "id": 860366,
+            "sourceTemplateSeatId": 6,
+            "title": "53",
+            "floorNumber": 1,
+            "posX": 55.0,
+            "posY": 45.0,
+            "type": "Standard",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": false,
+            "isReserved": true,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860367,
+            "sourceTemplateSeatId": 7,
+            "title": "49",
+            "floorNumber": 1,
+            "posX": 110.0,
+            "posY": 45.0,
+            "type": "Standard",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": false,
+            "isReserved": true,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860368,
+            "sourceTemplateSeatId": 8,
+            "title": "45",
+            "floorNumber": 1,
+            "posX": 170.0,
+            "posY": 45.0,
+            "type": "Standard",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860369,
+            "sourceTemplateSeatId": 1,
+            "title": "41",
+            "floorNumber": 1,
+            "posX": 230.0,
+            "posY": 45.0,
+            "type": "Standard",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860370,
+            "sourceTemplateSeatId": 2,
+            "title": "37",
+            "floorNumber": 1,
+            "posX": 285.0,
+            "posY": 45.0,
+            "type": "Standard",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860371,
+            "sourceTemplateSeatId": 3,
+            "title": "33",
+            "floorNumber": 1,
+            "posX": 345.0,
+            "posY": 45.0,
+            "type": "Standard",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860372,
+            "sourceTemplateSeatId": 9,
+            "title": "29",
+            "floorNumber": 1,
+            "posX": 400.0,
+            "posY": 45.0,
+            "type": "Standard",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860373,
+            "sourceTemplateSeatId": 4,
+            "title": "25",
+            "floorNumber": 1,
+            "posX": 460.0,
+            "posY": 45.0,
+            "type": "Standard",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860374,
+            "sourceTemplateSeatId": 5,
+            "title": "21",
+            "floorNumber": 1,
+            "posX": 515.0,
+            "posY": 45.0,
+            "type": "Standard",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860375,
+            "sourceTemplateSeatId": 55,
+            "title": "17",
+            "floorNumber": 1,
+            "posX": 570.0,
+            "posY": 45.0,
+            "type": "Standard",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860376,
+            "sourceTemplateSeatId": 47,
+            "title": "13",
+            "floorNumber": 1,
+            "posX": 630.0,
+            "posY": 45.0,
+            "type": "Priority",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860377,
+            "sourceTemplateSeatId": 48,
+            "title": "9",
+            "floorNumber": 1,
+            "posX": 685.0,
+            "posY": 45.0,
+            "type": "Priority",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860378,
+            "sourceTemplateSeatId": 49,
+            "title": "5",
+            "floorNumber": 1,
+            "posX": 745.0,
+            "posY": 45.0,
+            "type": "Priority",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860379,
+            "sourceTemplateSeatId": 51,
+            "title": "1",
+            "floorNumber": 1,
+            "posX": 800.0,
+            "posY": 45.0,
+            "type": "Priority",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860380,
+            "sourceTemplateSeatId": 34,
+            "title": "54",
+            "floorNumber": 1,
+            "posX": 55.0,
+            "posY": 100.0,
+            "type": "Standard",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860381,
+            "sourceTemplateSeatId": 25,
+            "title": "50",
+            "floorNumber": 1,
+            "posX": 110.0,
+            "posY": 100.0,
+            "type": "Standard",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860382,
+            "sourceTemplateSeatId": 20,
+            "title": "46",
+            "floorNumber": 1,
+            "posX": 170.0,
+            "posY": 100.0,
+            "type": "Standard",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860383,
+            "sourceTemplateSeatId": 11,
+            "title": "42",
+            "floorNumber": 1,
+            "posX": 230.0,
+            "posY": 100.0,
+            "type": "Standard",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860384,
+            "sourceTemplateSeatId": 12,
+            "title": "38",
+            "floorNumber": 1,
+            "posX": 285.0,
+            "posY": 100.0,
+            "type": "Standard",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860385,
+            "sourceTemplateSeatId": 13,
+            "title": "34",
+            "floorNumber": 1,
+            "posX": 345.0,
+            "posY": 100.0,
+            "type": "Standard",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860386,
+            "sourceTemplateSeatId": 14,
+            "title": "30",
+            "floorNumber": 1,
+            "posX": 400.0,
+            "posY": 100.0,
+            "type": "Standard",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860387,
+            "sourceTemplateSeatId": 15,
+            "title": "26",
+            "floorNumber": 1,
+            "posX": 460.0,
+            "posY": 100.0,
+            "type": "Standard",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860388,
+            "sourceTemplateSeatId": 10,
+            "title": "22",
+            "floorNumber": 1,
+            "posX": 515.0,
+            "posY": 100.0,
+            "type": "Standard",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860389,
+            "sourceTemplateSeatId": 45,
+            "title": "18",
+            "floorNumber": 1,
+            "posX": 570.0,
+            "posY": 100.0,
+            "type": "Standard",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860390,
+            "sourceTemplateSeatId": 46,
+            "title": "14",
+            "floorNumber": 1,
+            "posX": 630.0,
+            "posY": 100.0,
+            "type": "Priority",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860391,
+            "sourceTemplateSeatId": 54,
+            "title": "10",
+            "floorNumber": 1,
+            "posX": 685.0,
+            "posY": 100.0,
+            "type": "Priority",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860392,
+            "sourceTemplateSeatId": 53,
+            "title": "6",
+            "floorNumber": 1,
+            "posX": 745.0,
+            "posY": 100.0,
+            "type": "Priority",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860393,
+            "sourceTemplateSeatId": 52,
+            "title": "2",
+            "floorNumber": 1,
+            "posX": 800.0,
+            "posY": 100.0,
+            "type": "Priority",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860394,
+            "sourceTemplateSeatId": 35,
+            "title": "55",
+            "floorNumber": 1,
+            "posX": 55.0,
+            "posY": 160.0,
+            "type": "Standard",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860395,
+            "sourceTemplateSeatId": 16,
+            "title": "52",
+            "floorNumber": 1,
+            "posX": 55.0,
+            "posY": 215.0,
+            "type": "Standard",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860396,
+            "sourceTemplateSeatId": 17,
+            "title": "48",
+            "floorNumber": 1,
+            "posX": 110.0,
+            "posY": 215.0,
+            "type": "Standard",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860397,
+            "sourceTemplateSeatId": 29,
+            "title": "44",
+            "floorNumber": 1,
+            "posX": 170.0,
+            "posY": 215.0,
+            "type": "Standard",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860398,
+            "sourceTemplateSeatId": 18,
+            "title": "40",
+            "floorNumber": 1,
+            "posX": 230.0,
+            "posY": 215.0,
+            "type": "Standard",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860399,
+            "sourceTemplateSeatId": 19,
+            "title": "36",
+            "floorNumber": 1,
+            "posX": 285.0,
+            "posY": 215.0,
+            "type": "Standard",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860400,
+            "sourceTemplateSeatId": 36,
+            "title": "31",
+            "floorNumber": 1,
+            "posX": 440.0,
+            "posY": 215.0,
+            "type": "Standard",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860401,
+            "sourceTemplateSeatId": 38,
+            "title": "28",
+            "floorNumber": 1,
+            "posX": 495.0,
+            "posY": 215.0,
+            "type": "Standard",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860402,
+            "sourceTemplateSeatId": 40,
+            "title": "24",
+            "floorNumber": 1,
+            "posX": 550.0,
+            "posY": 215.0,
+            "type": "Standard",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860403,
+            "sourceTemplateSeatId": 37,
+            "title": "20",
+            "floorNumber": 1,
+            "posX": 605.0,
+            "posY": 215.0,
+            "type": "Standard",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860404,
+            "sourceTemplateSeatId": 39,
+            "title": "16",
+            "floorNumber": 1,
+            "posX": 660.0,
+            "posY": 215.0,
+            "type": "Priority",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860405,
+            "sourceTemplateSeatId": 42,
+            "title": "12",
+            "floorNumber": 1,
+            "posX": 715.0,
+            "posY": 215.0,
+            "type": "Priority",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860406,
+            "sourceTemplateSeatId": 44,
+            "title": "8",
+            "floorNumber": 1,
+            "posX": 775.0,
+            "posY": 215.0,
+            "type": "Priority",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860407,
+            "sourceTemplateSeatId": 31,
+            "title": "4",
+            "floorNumber": 1,
+            "posX": 825.0,
+            "posY": 215.0,
+            "type": "Priority",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860408,
+            "sourceTemplateSeatId": 21,
+            "title": "51",
+            "floorNumber": 1,
+            "posX": 55.0,
+            "posY": 270.0,
+            "type": "Standard",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860409,
+            "sourceTemplateSeatId": 22,
+            "title": "47",
+            "floorNumber": 1,
+            "posX": 110.0,
+            "posY": 270.0,
+            "type": "Standard",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860410,
+            "sourceTemplateSeatId": 33,
+            "title": "43",
+            "floorNumber": 1,
+            "posX": 170.0,
+            "posY": 270.0,
+            "type": "Standard",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860411,
+            "sourceTemplateSeatId": 23,
+            "title": "39",
+            "floorNumber": 1,
+            "posX": 230.0,
+            "posY": 270.0,
+            "type": "Standard",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860412,
+            "sourceTemplateSeatId": 24,
+            "title": "35",
+            "floorNumber": 1,
+            "posX": 285.0,
+            "posY": 270.0,
+            "type": "Standard",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860413,
+            "sourceTemplateSeatId": 32,
+            "title": "32",
+            "floorNumber": 1,
+            "posX": 440.0,
+            "posY": 270.0,
+            "type": "Standard",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860414,
+            "sourceTemplateSeatId": 26,
+            "title": "27",
+            "floorNumber": 1,
+            "posX": 495.0,
+            "posY": 270.0,
+            "type": "Standard",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860415,
+            "sourceTemplateSeatId": 30,
+            "title": "23",
+            "floorNumber": 1,
+            "posX": 550.0,
+            "posY": 270.0,
+            "type": "Standard",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860416,
+            "sourceTemplateSeatId": 41,
+            "title": "19",
+            "floorNumber": 1,
+            "posX": 605.0,
+            "posY": 270.0,
+            "type": "Standard",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860417,
+            "sourceTemplateSeatId": 28,
+            "title": "15",
+            "floorNumber": 1,
+            "posX": 660.0,
+            "posY": 270.0,
+            "type": "Priority",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860418,
+            "sourceTemplateSeatId": 27,
+            "title": "11",
+            "floorNumber": 1,
+            "posX": 715.0,
+            "posY": 270.0,
+            "type": "Priority",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860419,
+            "sourceTemplateSeatId": 43,
+            "title": "7",
+            "floorNumber": 1,
+            "posX": 775.0,
+            "posY": 270.0,
+            "type": "Priority",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          },
+          {
+            "id": 860420,
+            "sourceTemplateSeatId": 50,
+            "title": "3",
+            "floorNumber": 1,
+            "posX": 825.0,
+            "posY": 275.0,
+            "type": "Priority",
+            "classTierId": null,
+            "classTier": null,
+            "isAvailableForBooking": true,
+            "isReserved": false,
+            "isCheckedIn": false
+          }
+        ],
+        "availableSeatCounts": {
+          "Standard": 37,
+          "Wheelchair": 0,
+          "POD": 0,
+          "Priority": 16
+        },
+        "totalAvailableSeatCount": 53,
+        "segmentAvailability": [
+          {
+            "boardingStopId": 13,
+            "boardingStopName": "Abu Dhabi, Central Bus Station 1",
+            "alightingStopId": 14,
+            "alightingStopName": "Abu Dhabi, Samha 2",
+            "reservedPercentage": 3.6
+          },
+          {
+            "boardingStopId": 14,
+            "boardingStopName": "Abu Dhabi, Samha 2",
+            "alightingStopId": 15,
+            "alightingStopName": "Dubai, Ibn Battuta Bus Station 8",
+            "reservedPercentage": 3.6
+          }
+        ],
+        "requireSeat": true
+      }
+    }
+  },
+  {
+    "method": "POST",
+    "url": "https://bus-api.rta.ae/api/v1/b2c/booking/scheduled-trips/reservations/48211/confirmationcode/request",
+    "status": 200,
+    "request": {
+      "email": "***",
+      "phoneCode": "971",
+      "phoneNumber": "***",
+      "title": "Mr",
+      "firstName": "***",
+      "lastName": "***",
+      "fromEmail": false
+    },
+    "response": {
+      "data": {
+        "source": "Phone",
+        "email": "***",
+        "phoneCode": "971",
+        "phoneNumber": "***"
+      }
+    }
+  },
+  {
+    "method": "POST",
+    "url": "https://bus-api.rta.ae/api/v1/b2c/booking/scheduled-trips/reservations/48211/confirmationcode/verify",
+    "status": 500,
+    "request": {
+      "code": "***",
+      "email": "***",
+      "phoneCode": "971",
+      "phoneNumber": "***"
+    },
+    "response": {
+      "type": "https://httpwg.org/specs/rfc9110.html#status.500",
+      "title": "RTA.VERIFY.OTP.SERVICE.ERROR",
+      "status": 500,
+      "detail": "Reference ID in the request is not the latest reference ID generated for the user."
+    }
+  },
+  {
+    "method": "POST",
+    "url": "https://bus-api.rta.ae/api/v1/b2c/booking/scheduled-trips/reservations/48211/confirmationcode/verify",
+    "status": 500,
+    "request": {
+      "code": "***",
+      "email": "***",
+      "phoneCode": "971",
+      "phoneNumber": "***"
+    },
+    "response": {
+      "type": "https://httpwg.org/specs/rfc9110.html#status.500",
+      "title": "RTA.VERIFY.OTP.SERVICE.ERROR",
+      "status": 500,
+      "detail": "Reference ID in the request is not the latest reference ID generated for the user."
+    }
+  }
+]

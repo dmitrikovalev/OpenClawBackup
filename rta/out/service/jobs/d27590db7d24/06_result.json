@@ -1,0 +1,95 @@
+{
+  "started": "2026-10-27T08:08:02+00:00",
+  "trip": {
+    "trip_id": 15419,
+    "date": "2026-10-27",
+    "departure": "20:30",
+    "arrival": "22:15",
+    "seats_standard": 39,
+    "price_per_ticket": 25.0,
+    "total": 25.0,
+    "currency": "AED",
+    "route": "E101: Abu Dhabi, Central Bus Station 1 → Dubai, Ibn Battuta Bus Station 8",
+    "passengers": 1
+  },
+  "otp_channel": "Phone",
+  "terms_accepted": true,
+  "invoice": {
+    "invoice_id": 34349,
+    "total": 25.0,
+    "payment_methods": [
+      "5: Dubai Pay (DUBAIPAYBT)"
+    ]
+  },
+  "payment_method_cards": [
+    "Dubai Pay"
+  ],
+  "chosen_method": "5: Dubai Pay",
+  "payment_url": "https://epayment.dubai.ae/ePayHub/Authentication/SPServlet?token=<…>",
+  "gateway": {
+    "title": "Welcome to Dubai Pay",
+    "buttons": [
+      "Pay"
+    ],
+    "fields": [
+      "PYMTMETHODCODE",
+      "PYMTMETHODCODE",
+      "PYMTMETHODCODE",
+      "btnPay",
+      "btnCancel"
+    ],
+    "labels": [
+      "Credit Card",
+      "Net Banking",
+      "Google Pay"
+    ],
+    "images": [
+      "Dubai Pay",
+      "Dubai Pay"
+    ],
+    "iframes": [
+      "pay.google.com"
+    ],
+    "url": "https://epayment.dubai.ae/ePayHub/Authentication/SPServlet?token=<…>",
+    "host": "epayment.dubai.ae"
+  },
+  "hold": {
+    "trip_id": 15419,
+    "boarding": 13,
+    "alighting": 15,
+    "hub_hold": {
+      "holdId": 48516,
+      "reservedSeatIds": [
+        847991
+      ],
+      "expiresAt": "2026-10-27T08:23:35.5201579",
+      "sessionId": "01a17c67-6b79-7127-9b8b-98c55529bb49"
+    },
+    "hold_id": 48516,
+    "session_id": "01a17c67-6b79-7127-9b8b-98c55529bb49",
+    "expires_at": "2026-10-27T08:23:35.520Z",
+    "seats": [
+      {
+        "id": 847991,
+        "title": "53"
+      }
+    ],
+    "otp_deadline": "2026-10-27T08:18:47+00:00"
+  },
+  "hosts": {
+    "bus.rta.ae": 23,
+    "bus-api.rta.ae": 31,
+    "c.tile.openstreetmap.org": 3,
+    "a.tile.openstreetmap.org": 3,
+    "b.tile.openstreetmap.org": 2,
+    "flagcdn.com": 1,
+    "epayment.dubai.ae": 24,
+    "pay.google.com": 2,
+    "www.gstatic.com": 5,
+    "play.google.com": 6
+  },
+  "hub_calls": [
+    "JoinScheduledTripAsCustomer",
+    "AutoSelectReservation"
+  ]
+}
